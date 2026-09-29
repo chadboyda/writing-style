@@ -1,0 +1,163 @@
+{
+  "note": "Before/after rewrites published by US federal agencies under the Plain Writing Act, archived at github.com/GSA/plainlanguage.gov. Public domain under 17 USC 105.",
+  "license": "public domain (17 USC 105)",
+  "pairs": [
+    {
+      "id": "application-due-date",
+      "title": "Application Due Date",
+      "agency": "Department of the Interior",
+      "source": "https://github.com/GSA/plainlanguage.gov/blob/main/_pages/examples/before-and-after/application-due-date.md",
+      "attested_better": "after",
+      "before": "The application must be completed by the applicant and received by the financial office by June 1st.",
+      "after": "We must receive your application by June 1st.",
+      "before_words": 17,
+      "after_words": 8
+    },
+    {
+      "id": "application-federal-assistance",
+      "title": "Application for Federal Assistance",
+      "agency": "Department of the Interior",
+      "source": "https://github.com/GSA/plainlanguage.gov/blob/main/_pages/examples/before-and-after/application-federal-assistance.md",
+      "attested_better": "after",
+      "before": "This form will be used by Federal agencies to obtain applicant certification that States which have established a review and comment procedure in response to Executive Order 12372 and have selected the program to be included in their process, have been given an opportunity to review the applicant's submission.",
+      "after": "If your State requires an opportunity to review your application, use this form to certify that you have done so. Include the form in your application.",
+      "before_words": 49,
+      "after_words": 26
+    },
+    {
+      "id": "car-safety",
+      "title": "Car Safety",
+      "agency": "National Highway Traffic Safety Administration",
+      "source": "https://github.com/GSA/plainlanguage.gov/blob/main/_pages/examples/before-and-after/car-safety.md",
+      "attested_better": "after",
+      "before": "<div class=\"example-container\">\n\nThis is a multipurpose passenger vehicle which will handle and maneuver differently from an ordinary passenger car, in driving conditions which may occur on streets and highways and off road. As with other vehicles of this type, if you make sharp turns or abrupt maneuvers, the vehicle may roll over or may go out of control and crash. You should read driving guidelines and instructions in the Owner's Manual, and WEAR YOUR SEAT BELTS AT ALL TIMES.\n\n</div>",
+      "after": "<div class=\"example-container center\">\n\n![SUV rollover risk warning label]({{ site.baseurl }}/media/rollover-risk.jpg)\n\n</div>",
+      "before_words": 80,
+      "after_words": 11
+    },
+    {
+      "id": "employment-assistance",
+      "title": "Employment Assistance",
+      "agency": "Department of the Interior",
+      "source": "https://github.com/GSA/plainlanguage.gov/blob/main/_pages/examples/before-and-after/employment-assistance.md",
+      "attested_better": "after",
+      "before": "Once the candidate's goals are established, one or more potential employers are identified. A preliminary proposal for presentation to the employer is developed. The proposal is presented to an employer who agrees to negotiate an individualized job that meets the employment needs of the applicant and real business needs of the employer.",
+      "after": "Once we establish your goals, we identify one or more potential employers. We prepare a preliminary proposal to present to an employer who agrees to negotiate a job that meets both his and your employment needs.",
+      "before_words": 52,
+      "after_words": 36
+    },
+    {
+      "id": "fungi-hazards",
+      "title": "Fungi Hazards and Flood Cleanup",
+      "agency": "Federal Emergency Management Agency",
+      "source": "https://github.com/GSA/plainlanguage.gov/blob/main/_pages/examples/before-and-after/fungi-hazards.md",
+      "attested_better": "after",
+      "before": "Flood conditions contribute to the growth and transmission of many kinds of fungi, some of which can cause sickness. Cleanup workers are at increased risk of exposure to airborne fungi and their spores because they often handle moldy building materials, decaying vegetable matter, rotting waste material, and other fungus-contaminated debris. The fungal material is carried into the respiratory tract when airborne particles are inhaled.",
+      "after": "Be careful when cleaning up after a flood. You may be exposed to and breathe in unhealthy mold in:\n\n- The air\n- Damp building materials\n- Decaying vegetable matter\n- Rotting waste material\n- Any other damp debris",
+      "before_words": 64,
+      "after_words": 39
+    },
+    {
+      "id": "lead-warning",
+      "title": "Lead in Water",
+      "agency": "Environmental Protection Agency",
+      "source": "https://github.com/GSA/plainlanguage.gov/blob/main/_pages/examples/before-and-after/lead-warning.md",
+      "attested_better": "after",
+      "before": "Infants and children who drink water containing lead in excess of the action level could experience delays in their physical or mental development. Children could show slight deficits in attention span and learning abilities. Adults who drink this water over many years could develop kidney problems or high blood pressure.",
+      "after": "Lead in drinking water can make you sick. Here are some possible health effects of high lead levels in your drinking water:\n\n**Children:**\n- Delayed growth\n- Learning disabilities\n- Short attention span\n\n**Adults:**\n- Kidney problems\n- High blood pressure",
+      "before_words": 50,
+      "after_words": 41
+    },
+    {
+      "id": "medicaid-eligibility",
+      "title": "Medicaid Eligibility",
+      "agency": "Centers for Medicare & Medicaid Services",
+      "source": "https://github.com/GSA/plainlanguage.gov/blob/main/_pages/examples/before-and-after/medicaid-eligibility.md",
+      "attested_better": "after",
+      "before": "Medicaid: Apply if you are aged (65 years old or older), blind, or disabled and have low income and few resources. Apply if you are terminally ill and want to receive hospice services. Apply if you are aged, blind, or disabled; live in a nursing home; and have low income and limited resources. Apply if you are aged, blind, or disabled and need nursing home care, but can stay at home with special community care services. Apply if you are eligible for Medicare and have low income and limited resources.",
+      "after": "You may apply for Medicaid if you are:\n\n- Terminally ill and want hospice services\n- Eligible for Medicare and have low income and limited resources\n- 65 years old or older, blind, or disabled and have low income and few resources and:\n- Live in a nursing home\n- Need a nursing home care but can stay at home with special community care services",
+      "before_words": 90,
+      "after_words": 65
+    },
+    {
+      "id": "medicaid-initiative",
+      "title": "Medicaid Open Door Initiative",
+      "agency": "Centers for Medicare & Medicaid Services",
+      "source": "https://github.com/GSA/plainlanguage.gov/blob/main/_pages/examples/before-and-after/medicaid-initiative.md",
+      "attested_better": "after",
+      "before": "The Open Door Initiative is a program based on a simple and fresh attitude: that the CMS desires to better hear and interact with those beneficiaries, providers, and other stakeholders interested in the delivery of quality healthcare for our nation's seniors and beneficiaries with disabilities. This increased emphasis on responsiveness is captured through an ongoing series of 'Open Door Forums' that provide a dialogue about both the many individual service areas and beneficiary needs within CMS.",
+      "after": "**We want to hear from you!**\n\nHelp us improve our service to you. Attend an Open Door forum near you.\nFor information about upcoming forums, visit [cms.gov](https://www.cms.gov/Outreach-and-Education/Outreach/OpenDoorForums/index.html).",
+      "before_words": 76,
+      "after_words": 27
+    },
+    {
+      "id": "monthly-due-date",
+      "title": "Monthly Due Date",
+      "agency": "Bureau of Land Management",
+      "source": "https://github.com/GSA/plainlanguage.gov/blob/main/_pages/examples/before-and-after/monthly-due-date.md",
+      "attested_better": "after",
+      "before": "We must receive your completed application form on or before the 15th day of the second month following the month you are reporting if you do not submit your application electronically or the 25th day of the second month following the month you are reporting if you submit your application electronically.",
+      "after": "If you submit your form: | We must receive it by:\n--- | ---\nElectronically | 25th of the second month\nNot electronically | 15th of the second month",
+      "before_words": 51,
+      "after_words": 29
+    },
+    {
+      "id": "natural-disasters",
+      "title": "Protect Yourself from Natural Disasters",
+      "agency": "Federal Emergency Management Agency",
+      "source": "https://github.com/GSA/plainlanguage.gov/blob/main/_pages/examples/before-and-after/natural-disasters.md",
+      "attested_better": "after",
+      "before": "Mitigation is the cornerstone of emergency management. It's the ongoing effort to lessen the impact disasters have on people's lives and property through damage prevention and flood insurance. Through measures such as, building safely within the floodplain or removing homes altogether; engineering buildings and infrastructures to withstand earthquakes: and creating and enforcing effective building codes to protect property from floods, hurricanes and other natural hazards, the impact on lives and communities is lessened.",
+      "after": "Protect your community from natural disasters!\n\n- Build safely in the flood zone, or remove buildings altogether\n- Engineer buildings and infrastructure to withstand earthquakes\n- Create and enforce effective building codes",
+      "before_words": 73,
+      "after_words": 32
+    },
+    {
+      "id": "printer-recommendations",
+      "title": "Printer Recommendations",
+      "agency": "Department of the Interior",
+      "source": "https://github.com/GSA/plainlanguage.gov/blob/main/_pages/examples/before-and-after/printer-recommendations.md",
+      "attested_better": "after",
+      "before": "For local PC printing, it is recommended that you use a high-resolution laser or wax-transfer type printer for color reproductions, and that the printer have at least 1 MB of memory.",
+      "after": "For printing color reproductions locally, use a high-resolution laser or wax-transfer printer that has at least 1MB of memory.",
+      "before_words": 31,
+      "after_words": 19
+    },
+    {
+      "id": "register-pesticide",
+      "title": "Register a Pesticide",
+      "agency": "Environmental Protection Agency",
+      "source": "https://github.com/GSA/plainlanguage.gov/blob/main/_pages/examples/before-and-after/register-pesticide.md",
+      "attested_better": "after",
+      "before": "The process of registering a pesticide begins with submission to EPA of an application package. EPA's review of this application includes assessment of the hazards to human health and the environment that may be posed by the pesticide. Depending on the class of pesticide and the priority assigned to it, the review process can take several years.",
+      "after": "To register a pesticide, send EPA an application package. We will assess whether the pesticide poses hazards to human health and the environment. Depending on the pesticide and the priority we assign to it, our review can take several years.",
+      "before_words": 57,
+      "after_words": 40
+    },
+    {
+      "id": "use-less-water",
+      "title": "Use Less Water",
+      "agency": "Environmental Protection Agency",
+      "source": "https://github.com/GSA/plainlanguage.gov/blob/main/_pages/examples/before-and-after/use-less-water.md",
+      "attested_better": "after",
+      "before": "This program promotes efficient water use in homes and businesses throughout the country by offering a simple way to make purchasing decisions that conserve water without sacrificing quality or product performance.",
+      "after": "This program helps homeowners and businesses buy products that use less water without sacrificing quality or performance.",
+      "before_words": 31,
+      "after_words": 17
+    },
+    {
+      "id": "water-resources",
+      "title": "Water Resources",
+      "agency": "Environmental Protection Agency",
+      "source": "https://github.com/GSA/plainlanguage.gov/blob/main/_pages/examples/before-and-after/water-resources.md",
+      "attested_better": "after",
+      "before": "Emphasis was placed on near shore waters, coastal wetlands, land by the lakes, the impact of changing land use, and information availability and management. For each conference an integration paper was prepared for participants, bringing all the topics together. Also for both conferences indicators were chosen and, based on expert opinions, subjective assessments were provided as to conditions in terms of good, fair, poor, etc.",
+      "after": "We emphasized:\n\n- near shore waters,\n- coastal wetlands,\n- land by the lakes,\n- the impact of changing land use, and\n- information availability and management.\n\nFor each conference, we prepared an integration paper for participants, bringing all the topics together. Also for both conferences we chose indicators and, based on expert opinions, provided subjective assessments about conditions, rating them good, fair, poor, etc.",
+      "before_words": 65,
+      "after_words": 65
+    }
+  ],
+  "what_this_measures": "COMPREHENSION COMPLIANCE, NOT TASTE. The 'after' versions optimise for a general public understanding a legal obligation: short sentences, bullets, low reading level. That is a floor for clarity and says nothing about whether prose is good.",
+  "do_not_use_for": "Selecting a general writing-quality judge. Doing so was a mistake made earlier in this project: the 'craft' formulation scored 0.21 here and was declared anti-correlated with good writing, when what the number actually showed is that a craft standard loses to a bureaucratic clarity standard -- which is a fact about the yardstick, not about craft.",
+  "valid_use": "A separate accessibility check, for output that must be understood by a general audience under obligation. Reported on its own axis, never blended into a quality score."
+}

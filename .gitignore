@@ -1,0 +1,8 @@
+.claude/worktrees/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+corpus/cache/
+.DS_Store

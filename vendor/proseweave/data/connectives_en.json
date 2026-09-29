@@ -1,0 +1,1224 @@
+{
+ "about": "proseweave's inventory of English connectives, grouped by the relation each one signals. Independently compiled for proseweave from English grammar and from the category definitions in the published literature: Halliday & Hasan (1976) Cohesion in English, ch. 5 (additive, adversative, causal, temporal conjunction); Quirk, Greenbaum, Leech & Svartvik (1985) A Comprehensive Grammar of the English Language, 8.134-8.144 (conjunct classes: listing, summative, appositive, resultive, inferential, contrastive, transitional) and 14.12 (subordinators); Sanders, Spooren & Noordman (1992) 'Toward a taxonomy of coherence relations', Discourse Processes 15 (basic operation causal/additive, polarity positive/negative, order); Louwerse (2001) 'An analytic and cognitive parametrization of coherence relations', Cognitive Linguistics 12 (additive/temporal/causal x positive/negative); and the intentional/causal cohesion constructs of Graesser, McNamara, Louwerse & Cai (2004). The papers supply the category definitions; the members were chosen by proseweave's authors from general knowledge of English. No word list, data or code from any other tool was consulted or copied. Released under the same licence as proseweave.",
+ "format": "Each group lists items as space-separated lowercase tokens, matched against a sentence's words longest-first, each word used at most once per index. An item written 'word|a,b' counts only when that occurrence of the word has sense a or b (see 'senses'). An item written 'word#sub' counts only when the word introduces a subordinate clause. Without Jev, a sense falls back to 'by_class' (the word's class from tagging) and then to 'default'. An index may carry 'senses': {word: 'all' | 'none'} to count a sense-dependent word in every sense or in none.",
+ "groups": {
+  "additive": {
+   "source": "Halliday & Hasan 1976, additive conjunction; Quirk et al. 1985, additive (reinforcing) conjuncts; Louwerse 2001, positive additive",
+   "items": [
+    "also",
+    "moreover",
+    "furthermore",
+    "additionally",
+    "besides",
+    "too|also",
+    "in addition",
+    "in addition to",
+    "as well",
+    "as well as",
+    "what is more",
+    "what's more",
+    "on top of that",
+    "not only",
+    "further|also",
+    "plus#sub",
+    "along with",
+    "not to mention",
+    "let alone"
+   ]
+  },
+  "and": {
+   "source": "Halliday & Hasan 1976, simple additive 'and'; Quirk et al. 1985, coordinator",
+   "items": [
+    "and"
+   ]
+  },
+  "similarity": {
+   "source": "Halliday & Hasan 1976, additive: comparison (similar); Quirk et al. 1985, additive conjuncts of equation",
+   "items": [
+    "likewise",
+    "similarly",
+    "equally",
+    "correspondingly",
+    "in the same way",
+    "by the same token",
+    "in like manner",
+    "just as"
+   ]
+  },
+  "alternative": {
+   "source": "Halliday & Hasan 1976, additive: alternative; Quirk et al. 1985, coordinator 'or' and conjunct 'alternatively'",
+   "items": [
+    "or",
+    "alternatively",
+    "either#sub",
+    "or rather"
+   ]
+  },
+  "apposition": {
+   "source": "Halliday & Hasan 1976, additive: apposition (expository, exemplificatory); Quirk et al. 1985, appositive conjuncts",
+   "items": [
+    "for example",
+    "for instance",
+    "such as",
+    "namely",
+    "that is to say",
+    "in other words",
+    "to put it another way",
+    "i.e.",
+    "e.g.",
+    "in particular",
+    "specifically",
+    "to illustrate",
+    "as an example"
+   ]
+  },
+  "emphasis": {
+   "source": "Halliday & Hasan 1976, adversative: avowal (in fact, actually) and additive emphasis; Louwerse 2001, positive additive of assertion",
+   "items": [
+    "in fact",
+    "actually",
+    "indeed",
+    "of course",
+    "as a matter of fact",
+    "in reality",
+    "in truth",
+    "certainly",
+    "clearly",
+    "obviously"
+   ]
+  },
+  "contrast": {
+   "source": "Halliday & Hasan 1976, adversative (proper, contrastive, correction); Quirk et al. 1985, antithetic conjuncts; Louwerse 2001 and Sanders et al. 1992, negative additive",
+   "items": [
+    "but|contrast",
+    "however",
+    "yet|contrast",
+    "whereas",
+    "while|contrast",
+    "whilst|contrast",
+    "on the other hand",
+    "in contrast",
+    "by contrast",
+    "conversely",
+    "on the contrary",
+    "instead",
+    "instead of",
+    "rather|contrast",
+    "rather than",
+    "unlike",
+    "as opposed to",
+    "in comparison",
+    "by comparison"
+   ]
+  },
+  "concession": {
+   "source": "Quirk et al. 1985, concessive conjuncts and subordinators; Sanders et al. 1992 and Louwerse 2001, negative causal (denial of expectation)",
+   "items": [
+    "although",
+    "though",
+    "even though",
+    "even if",
+    "nevertheless",
+    "nonetheless",
+    "still|contrast",
+    "despite",
+    "in spite of",
+    "despite this",
+    "notwithstanding",
+    "anyway",
+    "anyhow",
+    "all the same",
+    "even so",
+    "regardless",
+    "admittedly",
+    "at any rate",
+    "in any case",
+    "albeit",
+    "at least|concede",
+    "after all",
+    "that said",
+    "having said that"
+   ]
+  },
+  "exception": {
+   "source": "Quirk et al. 1985, subordinators of exception and negative condition; Louwerse 2001, negative causal/conditional",
+   "items": [
+    "unless",
+    "except",
+    "except that",
+    "except for",
+    "otherwise",
+    "or else",
+    "apart from",
+    "other than",
+    "if not",
+    "but for",
+    "save for"
+   ]
+  },
+  "cause": {
+   "source": "Halliday & Hasan 1976, causal: reason; Quirk et al. 1985, subordinators of reason; Sanders et al. 1992, causal (non-basic order)",
+   "items": [
+    "because",
+    "because of",
+    "since|cause",
+    "as|cause",
+    "for|cause",
+    "due to",
+    "owing to",
+    "thanks to",
+    "on account of",
+    "as a result of",
+    "in view of",
+    "given that",
+    "seeing that",
+    "now that",
+    "in that",
+    "on the grounds that",
+    "inasmuch as",
+    "insofar as"
+   ]
+  },
+  "result": {
+   "source": "Halliday & Hasan 1976, causal: result and inference; Quirk et al. 1985, resultive and inferential conjuncts; Sanders et al. 1992, causal (basic order)",
+   "items": [
+    "so|result",
+    "therefore",
+    "thus",
+    "hence",
+    "consequently",
+    "accordingly",
+    "as a result",
+    "as a consequence",
+    "in consequence",
+    "for this reason",
+    "for that reason",
+    "that is why",
+    "that's why",
+    "which is why",
+    "this is why",
+    "it follows that",
+    "then|infer",
+    "in that case",
+    "because of this",
+    "because of that",
+    "so that|result,purpose",
+    "thereby",
+    "wherefore",
+    "ergo"
+   ]
+  },
+  "condition": {
+   "source": "Halliday & Hasan 1976, causal: conditional; Quirk et al. 1985, conditional subordinators; Louwerse 2001, causal (conditional)",
+   "items": [
+    "if|condition",
+    "only if",
+    "provided that",
+    "providing that",
+    "provided|condition",
+    "as long as",
+    "so long as",
+    "in case",
+    "in the event that",
+    "on condition that",
+    "assuming that",
+    "supposing",
+    "suppose|condition",
+    "in which case"
+   ]
+  },
+  "causal_lexis": {
+   "source": "Graesser et al. 2004 and Sanders et al. 1992: causal relations expressed by verbs and nouns of causation (cause, effect, enabling); base forms",
+   "items": [
+    "cause",
+    "result in",
+    "result",
+    "lead to",
+    "enable",
+    "produce",
+    "bring about",
+    "give rise to",
+    "trigger",
+    "effect",
+    "consequence",
+    "reason",
+    "allow",
+    "generate",
+    "responsible for",
+    "contribute to",
+    "make possible"
+   ]
+  },
+  "preventive_lexis": {
+   "source": "Sanders et al. 1992 and Louwerse 2001: negative causal relations expressed lexically (prevention, hindrance)",
+   "items": [
+    "prevent",
+    "prevents",
+    "prevented",
+    "preventing",
+    "hinder",
+    "hinders",
+    "hindered",
+    "stop from",
+    "block",
+    "blocked",
+    "keep from",
+    "kept from"
+   ]
+  },
+  "purpose": {
+   "source": "Halliday & Hasan 1976, causal: purpose; Quirk et al. 1985, subordinators of purpose",
+   "items": [
+    "in order to",
+    "in order that",
+    "in order for",
+    "so as to",
+    "so that|purpose",
+    "so|purpose",
+    "to this end",
+    "to that end",
+    "for this purpose",
+    "for that purpose",
+    "for the purpose of",
+    "with the aim of",
+    "with the intention of",
+    "with a view to",
+    "in the hope that",
+    "in the hope of",
+    "lest"
+   ]
+  },
+  "intention_lexis": {
+   "source": "Graesser et al. 2004: intentional cohesion (goals, plans and actions of agents) expressed by nouns and verbs of intention; base forms",
+   "items": [
+    "goal",
+    "purpose",
+    "aim",
+    "intend",
+    "intention",
+    "intent",
+    "want",
+    "wish",
+    "desire",
+    "plan",
+    "try",
+    "attempt",
+    "seek",
+    "strive",
+    "deliberately",
+    "intentionally",
+    "on purpose",
+    "determined to",
+    "mean to"
+   ]
+  },
+  "temporal": {
+   "source": "Halliday & Hasan 1976, temporal conjunction (sequential, simultaneous, conclusive, immediate, interrupted, repetitive, specific); Quirk et al. 1985, temporal subordinators and time adjuncts used conjunctively; Louwerse 2001, positive temporal",
+   "items": [
+    "when|time",
+    "whenever",
+    "while|time",
+    "whilst|time",
+    "as|time",
+    "then|time",
+    "after",
+    "afterwards",
+    "afterward",
+    "after that",
+    "after this",
+    "before",
+    "beforehand",
+    "before that",
+    "until",
+    "till#sub",
+    "since|time",
+    "since then",
+    "ever since",
+    "once|time",
+    "as soon as",
+    "the moment",
+    "every time",
+    "each time",
+    "by the time",
+    "meanwhile",
+    "in the meantime",
+    "meantime",
+    "at the same time",
+    "simultaneously",
+    "later",
+    "later on",
+    "soon",
+    "soon after",
+    "shortly",
+    "eventually",
+    "immediately",
+    "at once",
+    "instantly",
+    "suddenly",
+    "all of a sudden",
+    "previously",
+    "earlier",
+    "formerly",
+    "at first",
+    "at last",
+    "in the end",
+    "from then on",
+    "until then",
+    "up to now",
+    "so far",
+    "by then",
+    "thereafter",
+    "subsequently",
+    "then again",
+    "presently",
+    "just then",
+    "no sooner",
+    "during"
+   ]
+  },
+  "sequence": {
+   "source": "Quirk et al. 1985, listing (enumerative) conjuncts; Halliday & Hasan 1976, temporal: internal sequence",
+   "items": [
+    "first|list",
+    "firstly",
+    "first of all",
+    "second|list",
+    "secondly",
+    "third|list",
+    "thirdly",
+    "fourth|list",
+    "fourthly",
+    "next|list",
+    "then|list",
+    "finally|list",
+    "lastly",
+    "last|list",
+    "to begin with",
+    "to start with",
+    "in the first place",
+    "in the second place",
+    "last but not least",
+    "for one thing",
+    "for another",
+    "for another thing"
+   ]
+  },
+  "summary": {
+   "source": "Quirk et al. 1985, summative conjuncts; Halliday & Hasan 1976, temporal: conclusive",
+   "items": [
+    "in conclusion",
+    "to conclude",
+    "to sum up",
+    "to summarize",
+    "to summarise",
+    "in summary",
+    "in sum",
+    "in short",
+    "in brief",
+    "all in all",
+    "overall|sum",
+    "altogether|sum",
+    "on the whole",
+    "in all",
+    "ultimately"
+   ]
+  },
+  "transition": {
+   "source": "Quirk et al. 1985, transitional conjuncts (discoursal and temporal)",
+   "items": [
+    "incidentally",
+    "by the way",
+    "speaking of",
+    "as for",
+    "as to",
+    "with regard to",
+    "regarding",
+    "with respect to",
+    "as far as",
+    "in turn",
+    "now|transition",
+    "well|transition"
+   ]
+  },
+  "subordinator": {
+   "source": "Quirk et al. 1985, 14.12: simple subordinators of time, reason, concession and condition; counted only when introducing a clause",
+   "items": [
+    "although#sub",
+    "though#sub",
+    "because#sub",
+    "since#sub",
+    "while#sub",
+    "whereas#sub",
+    "unless#sub",
+    "until#sub",
+    "if#sub",
+    "when#sub",
+    "once#sub",
+    "as#sub",
+    "after#sub",
+    "before#sub"
+   ]
+  },
+  "causal_lexis_forms": {
+   "source": "Graesser et al. 2004 and Sanders et al. 1992: causal relations expressed by verbs and nouns of causation (cause, effect, enabling); inflected forms of the base group",
+   "items": [
+    "causes",
+    "caused",
+    "causing",
+    "results in",
+    "resulted in",
+    "resulting in",
+    "results",
+    "resulted",
+    "resulting",
+    "leads to",
+    "led to",
+    "leading to",
+    "enables",
+    "enabled",
+    "enabling",
+    "produces",
+    "produced",
+    "producing",
+    "brings about",
+    "brought about",
+    "bringing about",
+    "gave rise to",
+    "gives rise to",
+    "triggers",
+    "triggered",
+    "effects",
+    "consequences",
+    "reasons",
+    "allows",
+    "allowed",
+    "allowing",
+    "generates",
+    "generated",
+    "contributes to",
+    "contributed to"
+   ]
+  },
+  "causal_lexis_wide": {
+   "source": "Wider causative lexis (Quirk et al. 1985 on causative verbs): verbs and nouns naming causation or its outcome",
+   "items": [
+    "induce",
+    "induces",
+    "induced",
+    "provoke",
+    "provokes",
+    "provoked",
+    "spark",
+    "sparked",
+    "stem from",
+    "stems from",
+    "stemmed from",
+    "arise from",
+    "arises from",
+    "arose from",
+    "derive from",
+    "derived from",
+    "outcome",
+    "outcomes",
+    "influence",
+    "influenced",
+    "affect",
+    "affects",
+    "affected",
+    "determine",
+    "determines",
+    "determined",
+    "force",
+    "forced",
+    "forces",
+    "because of which",
+    "cause of",
+    "source of",
+    "factor",
+    "factors",
+    "impact",
+    "consequent",
+    "resultant",
+    "attributable to",
+    "on account of which"
+   ]
+  },
+  "intention_lexis_forms": {
+   "source": "Graesser et al. 2004: intentional cohesion (goals, plans and actions of agents) expressed by nouns and verbs of intention; inflected forms of the base group",
+   "items": [
+    "goals",
+    "purposes",
+    "aims",
+    "aimed",
+    "aiming",
+    "intends",
+    "intended",
+    "intending",
+    "intentions",
+    "wants",
+    "wanted",
+    "wanting",
+    "wishes",
+    "wished",
+    "desires",
+    "desired",
+    "plans",
+    "planned",
+    "planning",
+    "tries",
+    "tried",
+    "trying",
+    "attempts",
+    "attempted",
+    "seeks",
+    "sought",
+    "strove",
+    "meant to"
+   ]
+  },
+  "intention_lexis_wide": {
+   "source": "Wider intentional lexis (Graesser et al. 2004, intentional actions): verbs of deciding, hoping and choosing",
+   "items": [
+    "hope",
+    "hopes",
+    "hoped",
+    "hoping",
+    "decide",
+    "decides",
+    "decided",
+    "deciding",
+    "decision",
+    "choose",
+    "chooses",
+    "chose",
+    "chosen",
+    "resolve",
+    "resolved",
+    "endeavour",
+    "endeavor",
+    "objective",
+    "objectives",
+    "ambition",
+    "motive",
+    "motives",
+    "would like",
+    "willing to",
+    "eager to",
+    "longing",
+    "longed",
+    "yearn",
+    "yearned",
+    "need to",
+    "needs to",
+    "needed to",
+    "set out to",
+    "so as to"
+   ]
+  },
+  "causative_verbs": {
+   "source": "Quirk et al. 1985, 16.52: causative verbs taking a clause of effect; only 'make' and 'let' are listed, since 'have' and 'get' are mostly not causative",
+   "items": [
+    "make",
+    "makes",
+    "made",
+    "making",
+    "let",
+    "lets",
+    "letting"
+   ]
+  }
+ },
+ "indices": {
+  "addition": {
+   "definition": "Additive conjuncts that add a further point (Quirk et al. 1985, additive; Halliday & Hasan 1976, additive proper and comparison)",
+   "groups": [
+    "additive",
+    "similarity",
+    "and"
+   ],
+   "selection": "groups and sense handling chosen on the even-numbered half of proseweave's validation corpus; scored on the odd half"
+  },
+  "sentence_linking": {
+   "definition": "Single-word conjuncts that link a sentence or clause to the preceding discourse (Quirk et al. 1985, conjuncts), plus subordinators introducing a clause",
+   "groups": [
+    "similarity",
+    "apposition",
+    "emphasis",
+    "contrast",
+    "concession",
+    "exception",
+    "result",
+    "temporal",
+    "summary",
+    "transition"
+   ],
+   "single_words_only": true,
+   "plus": [
+    "subordinator"
+   ],
+   "senses": {
+    "as": "all",
+    "once": "all",
+    "when": "all"
+   },
+   "selection": "groups and sense handling chosen on the even-numbered half of proseweave's validation corpus; scored on the odd half"
+  },
+  "order": {
+   "definition": "Listing and summative conjuncts that order the discourse (Quirk et al. 1985)",
+   "groups": [
+    "sequence"
+   ],
+   "senses": {
+    "first": "all",
+    "then": "all",
+    "second": "all",
+    "next": "all",
+    "finally": "all"
+   },
+   "selection": "groups and sense handling chosen on the even-numbered half of proseweave's validation corpus; scored on the odd half"
+  },
+  "reason_and_purpose": {
+   "definition": "Connectives of reason, result and purpose (Halliday & Hasan 1976, causal: reason, result, purpose)",
+   "groups": [
+    "cause",
+    "result",
+    "purpose"
+   ],
+   "senses": {
+    "as": "all",
+    "so": "none"
+   },
+   "selection": "groups and sense handling chosen on the even-numbered half of proseweave's validation corpus; scored on the odd half"
+  },
+  "all_causal": {
+   "definition": "Causal relations of either polarity, lexical and conjunctive (Sanders et al. 1992; Louwerse 2001)",
+   "groups": [
+    "cause",
+    "result",
+    "purpose",
+    "causal_lexis",
+    "concession",
+    "preventive_lexis",
+    "causal_lexis_forms",
+    "causative_verbs"
+   ],
+   "senses": {
+    "so": "all"
+   },
+   "selection": "groups and sense handling chosen on the even-numbered half of proseweave's validation corpus; scored on the odd half"
+  },
+  "positive_causal": {
+   "definition": "Positive causal relations: cause, result, enabling (Sanders et al. 1992; Louwerse 2001)",
+   "groups": [
+    "cause",
+    "result",
+    "condition",
+    "causal_lexis"
+   ],
+   "senses": {
+    "for": "none"
+   },
+   "selection": "groups and sense handling chosen on the even-numbered half of proseweave's validation corpus; scored on the odd half"
+  },
+  "all_additive": {
+   "definition": "Additive relations: addition, similarity, alternative, apposition, emphasis (Halliday & Hasan 1976; Louwerse 2001)",
+   "groups": [
+    "additive",
+    "and",
+    "similarity",
+    "alternative",
+    "apposition",
+    "emphasis",
+    "contrast"
+   ],
+   "selection": "groups and sense handling chosen on the even-numbered half of proseweave's validation corpus; scored on the odd half"
+  },
+  "all_logical": {
+   "definition": "Logical (non-temporal) connectives of every polarity: additive, adversative, causal, conditional (Halliday & Hasan 1976; Louwerse 2001)",
+   "groups": [
+    "additive",
+    "similarity",
+    "alternative",
+    "apposition",
+    "emphasis",
+    "contrast",
+    "concession",
+    "exception",
+    "cause",
+    "result",
+    "purpose",
+    "condition"
+   ],
+   "senses": {
+    "for": "all",
+    "since": "none"
+   },
+   "selection": "groups and sense handling chosen on the even-numbered half of proseweave's validation corpus; scored on the odd half"
+  },
+  "positive_logical": {
+   "definition": "Logical connectives of positive polarity (Sanders et al. 1992; Louwerse 2001)",
+   "groups": [
+    "additive",
+    "similarity",
+    "apposition",
+    "emphasis",
+    "cause",
+    "result",
+    "purpose",
+    "condition"
+   ],
+   "senses": {
+    "since": "none",
+    "then": "all",
+    "as": "none",
+    "if": "all"
+   },
+   "selection": "groups and sense handling chosen on the even-numbered half of proseweave's validation corpus; scored on the odd half"
+  },
+  "all_temporal": {
+   "definition": "Temporal connectives: sequence, simultaneity, conclusion (Halliday & Hasan 1976, temporal)",
+   "groups": [
+    "temporal",
+    "sequence",
+    "summary"
+   ],
+   "senses": {
+    "first": "all",
+    "while": "all"
+   },
+   "selection": "groups and sense handling chosen on the even-numbered half of proseweave's validation corpus; scored on the odd half"
+  },
+  "positive_intentional": {
+   "definition": "Intentional relations: purpose connectives and words of goal and intention (Graesser et al. 2004)",
+   "groups": [
+    "purpose",
+    "intention_lexis"
+   ],
+   "selection": "groups and sense handling chosen on the even-numbered half of proseweave's validation corpus; scored on the odd half"
+  },
+  "all_positive": {
+   "definition": "Connectives of positive polarity: additive, causal, temporal (Louwerse 2001)",
+   "groups": [
+    "additive",
+    "and",
+    "similarity",
+    "apposition",
+    "cause",
+    "result",
+    "purpose",
+    "condition",
+    "temporal",
+    "sequence",
+    "summary",
+    "intention_lexis_wide"
+   ],
+   "senses": {
+    "as": "all"
+   },
+   "selection": "groups and sense handling chosen on the even-numbered half of proseweave's validation corpus; scored on the odd half"
+  },
+  "all_negative": {
+   "definition": "Connectives of negative polarity: contrast, concession, exception (Louwerse 2001; Sanders et al. 1992)",
+   "groups": [
+    "contrast",
+    "concession",
+    "exception",
+    "alternative"
+   ],
+   "selection": "groups and sense handling chosen on the even-numbered half of proseweave's validation corpus; scored on the odd half"
+  },
+  "all_connective": {
+   "definition": "Connectives of every kind (Halliday & Hasan 1976, all four conjunction types plus continuatives)",
+   "groups": [
+    "additive",
+    "and",
+    "similarity",
+    "alternative",
+    "apposition",
+    "emphasis",
+    "contrast",
+    "concession",
+    "exception",
+    "cause",
+    "purpose",
+    "condition",
+    "temporal",
+    "sequence",
+    "summary",
+    "transition"
+   ],
+   "senses": {
+    "as": "all",
+    "when": "none"
+   },
+   "selection": "groups and sense handling chosen on the even-numbered half of proseweave's validation corpus; scored on the odd half"
+  },
+  "opposition": {
+   "definition": "Contrast and concession (Halliday & Hasan 1976, adversative; Quirk et al. 1985, contrastive and concessive conjuncts)",
+   "groups": [
+    "contrast",
+    "concession"
+   ],
+   "selection": "as defined; not tuned"
+  },
+  "negative_logical": {
+   "definition": "Logical connectives of negative polarity: contrast, concession, exception (Sanders et al. 1992; Louwerse 2001)",
+   "groups": [
+    "contrast",
+    "concession",
+    "exception"
+   ],
+   "selection": "as defined; not tuned"
+  }
+ },
+ "senses": {
+  "so": {
+   "options": {
+    "result": "links a result or conclusion: 'and therefore', 'and so' ('It rained, so we stayed in')",
+    "purpose": "introduces a purpose: 'so that', 'in order that' ('Speak up so everyone hears')",
+    "discourse": "opens or resumes talk ('So, where were we?')",
+    "degree": "means 'very' or 'to such a degree' ('so tired', 'so much')",
+    "proform": "stands in for something already said ('I think so', 'and so did she', 'or so')"
+   },
+   "default": [
+    "result"
+   ],
+   "by_class": {
+    "CONJ": "result",
+    "ADV": "degree",
+    "PRON": "proform"
+   }
+  },
+  "so that": {
+   "options": {
+    "purpose": "introduces a purpose: 'in order that'",
+    "result": "introduces a result: 'with the result that'",
+    "other": "any other use ('so that was it', 'so that he...' meaning 'so, that...')"
+   },
+   "default": [
+    "purpose"
+   ]
+  },
+  "since": {
+   "options": {
+    "cause": "means 'because'",
+    "time": "means 'from a time in the past until now'"
+   },
+   "default": [
+    "time"
+   ],
+   "by_class": {
+    "ADP": "time"
+   }
+  },
+  "as": {
+   "options": {
+    "cause": "means 'because' ('As it was late, we left')",
+    "time": "means 'while' or 'at the moment when' ('As she spoke, the door opened')",
+    "compare": "compares or gives a role or manner ('as tall as', 'as a teacher', 'as I said', 'such as')"
+   },
+   "default": [
+    "compare"
+   ],
+   "by_class": {
+    "ADP": "compare"
+   }
+  },
+  "while": {
+   "options": {
+    "time": "means 'during the time that'",
+    "contrast": "means 'whereas' or 'although'",
+    "noun": "a noun, a period of time ('a while', 'for a while')"
+   },
+   "default": [
+    "time"
+   ],
+   "by_class": {
+    "NOUN": "noun"
+   }
+  },
+  "whilst": {
+   "options": {
+    "time": "means 'during the time that'",
+    "contrast": "means 'whereas' or 'although'"
+   },
+   "default": [
+    "time"
+   ]
+  },
+  "then": {
+   "options": {
+    "time": "next or afterwards, in a sequence of events",
+    "infer": "means 'in that case' or 'therefore' ('If so, then we win')",
+    "list": "adds the next item in a list or argument ('And then there is cost')",
+    "point": "means 'at that time' ('I was young then', 'by then', 'back then')"
+   },
+   "default": [
+    "time"
+   ]
+  },
+  "for": {
+   "options": {
+    "cause": "a conjunction meaning 'because' ('She wept, for he was gone')",
+    "prep": "a preposition ('for you', 'for a year', 'waited for')"
+   },
+   "default": [
+    "prep"
+   ],
+   "by_class": {
+    "CONJ": "cause",
+    "ADP": "prep"
+   }
+  },
+  "still": {
+   "options": {
+    "contrast": "means 'nevertheless' or 'even so'",
+    "time": "means 'even now' or 'continuing' ('she still lives there')",
+    "other": "means 'motionless', 'even more' ('still better'), or other"
+   },
+   "default": [
+    "time"
+   ]
+  },
+  "yet": {
+   "options": {
+    "contrast": "means 'but' or 'nevertheless'",
+    "time": "means 'up to now' or 'so far' ('not yet')",
+    "other": "means 'even' or 'still more' ('yet another')"
+   },
+   "default": [
+    "contrast"
+   ],
+   "by_class": {
+    "CONJ": "contrast",
+    "ADV": "time"
+   }
+  },
+  "but": {
+   "options": {
+    "contrast": "joins or opens with a contrast ('small but strong')",
+    "other": "means 'except' or 'only' ('all but one', 'but a child')"
+   },
+   "default": [
+    "contrast"
+   ]
+  },
+  "rather": {
+   "options": {
+    "contrast": "means 'instead' or 'on the contrary'",
+    "degree": "means 'quite' or 'somewhat', or 'would rather' (prefer)"
+   },
+   "default": [
+    "degree"
+   ],
+   "by_class": {
+    "CONJ": "contrast",
+    "ADV": "degree"
+   }
+  },
+  "once": {
+   "options": {
+    "time": "means 'as soon as' or 'after' ('Once he left, we ate')",
+    "other": "means 'one time' or 'formerly' ('once a week', 'once upon a time')"
+   },
+   "default": [
+    "other"
+   ],
+   "by_class": {
+    "CONJ": "time",
+    "ADV": "other",
+    "NUM": "other"
+   }
+  },
+  "when": {
+   "options": {
+    "time": "introduces a time clause ('when she arrived')",
+    "other": "asks a question or starts a relative clause ('When did...?', 'the day when')"
+   },
+   "default": [
+    "time"
+   ],
+   "by_class": {
+    "CONJ": "time",
+    "ADV": "other",
+    "PRON": "other"
+   }
+  },
+  "if": {
+   "options": {
+    "condition": "sets a condition ('if it rains')",
+    "whether": "means 'whether' ('asked if she could')"
+   },
+   "default": [
+    "condition"
+   ]
+  },
+  "now": {
+   "options": {
+    "transition": "opens or turns the discourse ('Now, the second point')",
+    "time": "means 'at present' or 'at this moment'"
+   },
+   "default": [
+    "time"
+   ]
+  },
+  "too": {
+   "options": {
+    "also": "means 'also' or 'as well'",
+    "degree": "means 'excessively' ('too hot')"
+   },
+   "default": [
+    "also"
+   ]
+  },
+  "further": {
+   "options": {
+    "also": "means 'moreover' or 'in addition'",
+    "other": "means 'more distant' or 'more' ('walked further', 'further details')"
+   },
+   "default": [
+    "other"
+   ],
+   "by_class": {
+    "ADV": "also",
+    "ADJ": "other"
+   }
+  },
+  "at least": {
+   "options": {
+    "concede": "concedes or limits a claim ('At least he tried')",
+    "amount": "means 'no fewer or less than' ('at least ten')"
+   },
+   "default": [
+    "amount"
+   ]
+  },
+  "overall": {
+   "options": {
+    "sum": "sums up ('Overall, it worked')",
+    "other": "an adjective or adverb of extent ('the overall cost')"
+   },
+   "default": [
+    "other"
+   ]
+  },
+  "altogether": {
+   "options": {
+    "sum": "sums up ('Altogether, a good day')",
+    "other": "means 'completely' or 'in total'"
+   },
+   "default": [
+    "other"
+   ]
+  },
+  "provided": {
+   "options": {
+    "condition": "means 'on condition that'",
+    "other": "the verb 'provide' ('she provided food')"
+   },
+   "default": [
+    "other"
+   ]
+  },
+  "suppose": {
+   "options": {
+    "condition": "introduces a hypothesis ('Suppose it fails')",
+    "other": "means 'think' or 'expect' ('I suppose so', 'be supposed to')"
+   },
+   "default": [
+    "other"
+   ]
+  },
+  "well": {
+   "options": {
+    "transition": "a discourse marker opening a reply or turn ('Well, I don't know')",
+    "other": "an adverb, adjective or noun ('did well', 'feel well', 'a well')"
+   },
+   "default": [
+    "other"
+   ],
+   "by_class": {
+    "OTHER": "transition",
+    "ADV": "other"
+   }
+  },
+  "first": {
+   "options": {
+    "list": "orders a point or event in a sequence ('First, we ...', 'I went there first')",
+    "other": "an ordinal describing a noun ('the first time', 'his first book')"
+   },
+   "default": [
+    "other"
+   ],
+   "by_class": {
+    "ADV": "list",
+    "ADJ": "other",
+    "NUM": "other"
+   }
+  },
+  "second": {
+   "options": {
+    "list": "orders a point in a sequence ('Second, ...')",
+    "other": "an ordinal or a unit of time ('the second day', 'a second')"
+   },
+   "default": [
+    "other"
+   ]
+  },
+  "third": {
+   "options": {
+    "list": "orders a point in a sequence",
+    "other": "an ordinal or fraction ('the third man')"
+   },
+   "default": [
+    "other"
+   ]
+  },
+  "fourth": {
+   "options": {
+    "list": "orders a point in a sequence",
+    "other": "an ordinal or fraction"
+   },
+   "default": [
+    "other"
+   ]
+  },
+  "next": {
+   "options": {
+    "list": "orders the next point or event ('Next, add salt', 'what happened next')",
+    "other": "describes a noun or means 'beside' ('next week', 'next to')"
+   },
+   "default": [
+    "other"
+   ],
+   "by_class": {
+    "ADV": "list",
+    "ADJ": "other",
+    "ADP": "other"
+   }
+  },
+  "finally": {
+   "options": {
+    "list": "orders the last point or event in a sequence ('Finally, ...')",
+    "other": "means 'at long last' after waiting ('she finally agreed')"
+   },
+   "default": [
+    "list"
+   ]
+  },
+  "last": {
+   "options": {
+    "list": "orders the last point ('Last, ...', 'came last')",
+    "other": "means 'final', 'previous' or 'endure' ('last week', 'the last one', 'it will last')"
+   },
+   "default": [
+    "other"
+   ],
+   "by_class": {
+    "ADV": "list",
+    "ADJ": "other",
+    "VERB": "other"
+   }
+  }
+ }
+}

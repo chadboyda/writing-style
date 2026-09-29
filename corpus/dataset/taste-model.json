@@ -1,0 +1,65 @@
+{
+  "note": "Two axes fitted on 414 passages: 228 exemplars across 21 registers, 186 negatives from 12 sources across 7 vendor families.",
+  "validation": {
+    "corpus": 414,
+    "exemplars": 228,
+    "registers": 21,
+    "negative_sources": 12,
+    "cv_accuracy": 0.787,
+    "cv_auc": 0.869,
+    "median_heldout_family_auc": 0.779,
+    "paired_human_vs_own_paraphrase": 0.917,
+    "ladder_spearman": 0.8
+  },
+  "known_weakness": "Exemplar recall is 0.25-0.30 on technical writing against 1.00 on literary registers. The dimensions reward literary markers, and good technical prose is deliberately restrained. Treat low scores on technical drafts as uninformative.",
+  "axes": {
+    "presence": {
+      "keys": [
+        "unpredictable_move",
+        "personal_risk",
+        "noticed_not_looked_up",
+        "sensory_scene",
+        "unusual_syntax",
+        "cares_about_subject",
+        "resists_summary",
+        "says_the_unobvious",
+        "safe_middle",
+        "interchangeable_author"
+      ],
+      "weights": [
+        0.43891384550076123,
+        0.4703692294384772,
+        0.9256123473508538,
+        1.126357211033621,
+        0.9430516476054462,
+        0.5460729745765897,
+        0.32998483493439146,
+        0.17500065605270324,
+        -0.35793958029915257,
+        -0.9577329518194827
+      ],
+      "bias": -2.307897470482472
+    },
+    "execution": {
+      "keys": [
+        "specific_detail",
+        "single_author",
+        "claims_carry_reasons",
+        "stock_vocabulary",
+        "unearned_promise",
+        "formulaic_shape",
+        "audience_flattery"
+      ],
+      "weights": [
+        0.696802775895987,
+        1.5512873002097305,
+        -0.32568792753100123,
+        -0.7902848253594215,
+        0.07242637638724413,
+        -0.8948288170535394,
+        -0.38897811107722485
+      ],
+      "bias": -0.9598846694951748
+    }
+  }
+}

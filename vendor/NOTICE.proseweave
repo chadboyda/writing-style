@@ -1,0 +1,289 @@
+proseweave
+Copyright (c) 2026 Chad Boyda. Code released under the MIT licence (LICENSE).
+
+Third-party data in src/proseweave/data/
+========================================
+
+synonyms_en.bin.gz
+    Noun and verb synonym sets built from Princeton WordNet 3.0 (via NLTK's
+    copy of the database): for each single-word lemma, the other single-word
+    lemmas of the synsets it belongs to, stored as (lemma, synonym) pairs in
+    proseweave's packed table format (tools/pack_tables.py). WordNet licence
+    below.
+
+lemma_en.json.gz, lemma_index_en.bin.gz
+    English lemmatizer tables (rules and exceptions; the index of known lemmas
+    per word class, packed by tools/pack_tables.py) extracted from spaCy's
+    en_core_web_sm 3.7.1, which is distributed under the MIT licence (below).
+    The tables themselves derive from WordNet 3.0:
+
+        WordNet 3.0 Copyright 2006 by Princeton University. All rights reserved.
+
+        THIS SOFTWARE AND DATABASE IS PROVIDED "AS IS" AND PRINCETON UNIVERSITY
+        MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED. BY WAY OF
+        EXAMPLE, BUT NOT LIMITATION, PRINCETON UNIVERSITY MAKES NO
+        REPRESENTATIONS OR WARRANTIES OF MERCHANTABILITY OR FITNESS FOR ANY
+        PARTICULAR PURPOSE OR THAT THE USE OF THE LICENSED SOFTWARE, DATABASE OR
+        DOCUMENTATION WILL NOT INFRINGE ANY THIRD PARTY PATENTS, COPYRIGHTS,
+        TRADEMARKS OR OTHER RIGHTS.
+
+        Permission to use, copy, modify and distribute this software and
+        database and its documentation for any purpose and without fee or
+        royalty is hereby granted, provided that you agree to comply with the
+        above copyright notice and statements, including the disclaimer, and
+        that the same appear on ALL copies of the software, database and
+        documentation, including modifications that you make for internal use
+        or for distribution.
+
+stop_words_en.txt
+    The English stop-word list from spaCy (spacy/lang/en/stop_words.py).
+
+        Copyright (C) 2016-2024 ExplosionAI GmbH, 2016 spaCy GmbH,
+        2015 Matthew Honnibal. Released under the MIT licence:
+
+        Permission is hereby granted, free of charge, to any person obtaining a
+        copy of this software and associated documentation files (the
+        "Software"), to deal in the Software without restriction, including
+        without limitation the rights to use, copy, modify, merge, publish,
+        distribute, sublicense, and/or sell copies of the Software, and to
+        permit persons to whom the Software is furnished to do so, subject to
+        the following conditions: The above copyright notice and this
+        permission notice shall be included in all copies or substantial
+        portions of the Software. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT
+        WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+        THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+        NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+        LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+        OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+        WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+validation.json
+    proseweave's own validation results (see validation/).
+
+judged_models.json
+    proseweave's own fitted weights for the judgement-scale properties
+    (judged.py): ridge coefficients and feature scalings, fitted on the
+    validation corpora's reference values. Numbers only; no text is stored.
+    MIT, like the code.
+
+syntax_en.bin.gz
+    Learned weights of proseweave's text pipeline (syntax.py): a two-pass
+    part-of-speech tagger, sentence segmenter, dependency parser and
+    coarse-class model, with a tag dictionary and short lists of lemma
+    corrections and tokenizer exceptions. Feature weights only; no running
+    text is stored. Details: data/SYNTAX_LICENSE.md. Build scripts:
+    tools/syntax/.
+
+    Licence: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/).
+    The weights were learned from automatic parses of the following texts:
+
+      - Universal Dependencies English Web Treebank (UD_English-EWT), raw
+        sentences. CC BY-SA 4.0. Attribution: Silveira et al. (2014), "A Gold
+        Standard Dependency Corpus for English", and the Universal Dependencies
+        contributors.
+      - English Wikipedia, randomly sampled articles (plain-text extracts,
+        2026-09). CC BY-SA 4.0. Attribution: Wikipedia contributors.
+      - English Wikinews, randomly sampled articles (2026-09). CC BY 2.5.
+        Attribution: Wikinews contributors.
+      - Project Gutenberg books, public domain in the United States. No
+        Project Gutenberg header, licence text or trademark is used or
+        reproduced.
+
+    The parses used as training labels were made at build time by spaCy's
+    en_core_web_sm 3.7 model, which is distributed under the MIT licence
+    (Copyright (C) 2016-2024 ExplosionAI GmbH, 2016 spaCy GmbH, 2015 Matthew
+    Honnibal; licence text as for stop_words_en.txt above). No part of the
+    spaCy model is included in the file.
+
+    The sentence segmenter's weights were additionally learned from spaCy
+    en_core_web_sm annotations of open web text: Common Pile v0.1
+    news_filtered articles marked CC BY 4.0 (CC BY-SA articles skipped),
+    Foodista (CC BY 3.0) and English Wikinews (CC BY 2.5). Build script:
+    tools/syntax/train_seg2.py (data: tools/dump_news.py).
+
+syllables_en.bin.gz, stress_en.bin.gz
+    Syllable counts per word (the number of vowel phonemes in the first listed
+    pronunciation) and, for words not stressed on their first syllable, which
+    syllables carry primary stress, derived from the Carnegie Mellon Pronouncing Dictionary
+    0.7a, as distributed in the NLTK data package, in proseweave's packed table
+    format. Build scripts: tools/build_syllables.py, tools/pack_tables.py.
+    Full upstream notice: data/LICENSE_syllables.md.
+
+        Copyright (C) 1993-2008 Carnegie Mellon University. All rights
+        reserved.
+
+        Redistribution and use in source and binary forms, with or without
+        modification, are permitted provided that the following conditions
+        are met:
+
+        1. Redistributions of source code must retain the above copyright
+           notice, this list of conditions and the following disclaimer.
+           The contents of this file are deemed to be source code.
+
+        2. Redistributions in binary form must reproduce the above copyright
+           notice, this list of conditions and the following disclaimer in
+           the documentation and/or other materials provided with the
+           distribution.
+
+        THIS SOFTWARE IS PROVIDED BY CARNEGIE MELLON UNIVERSITY ``AS IS'' AND
+        ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
+        THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+        PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL CARNEGIE MELLON
+        UNIVERSITY NOR ITS EMPLOYEES BE LIABLE FOR ANY DIRECT, INDIRECT,
+        INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+        BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS
+        OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED
+        AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+        LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY
+        WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+        POSSIBILITY OF SUCH DAMAGE.
+
+hyph_en_US.dic.gz
+    US English hyphenation patterns, hyph_en_US.dic version 2011-10-07
+    (conversion and modifications by László Németh, originally distributed
+    with the Hyphen hyphenation library), based on the Plain TeX hyphen.tex
+    patterns and the TUGboat US English hyphenation-exception log. Shipped
+    gzipped and otherwise unchanged; readability.py uses it only to count the
+    syllables of words the dictionary lacks. Full upstream README:
+    data/LICENSE_syllables.md.
+
+        hyph_en_US.dic: BSD-style. Unlimited copying, redistribution and
+        modification of this file is permitted with this copyright and
+        license information.
+
+        hyphen.tex: The Plain TeX hyphenation tables [NOT TO BE CHANGED IN
+        ANY WAY!] Unlimited copying and redistribution of this file are
+        permitted as long as this file is not modified. Modifications are
+        permitted, but only if the resulting file is not named hyphen.tex.
+
+        TUGboat exceptions: Copyright 2007 TeX Users Group. You may freely
+        use, modify and/or distribute this file.
+
+zipf_en.bin.gz
+    Word frequencies on the Zipf scale (log10 frequency per billion words;
+    van Heuven et al. 2014) for 147,216 lowercase words, each seen at least 5
+    times. Counts only; no running text. Details: data/LICENSE_zipf_en.md.
+    Build scripts: tools/build_zipf_table.py, tools/pack_tables.py.
+
+    Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).
+    Counted from, with each source normalised and weighted equally:
+
+      - Common Pile v0.1 news_filtered, only articles marked CC BY 4.0 (CC BY-SA
+        articles skipped).
+      - English Wikinews, snapshot of 2023-07-28. CC BY 2.5.
+      - Common Pile v0.1 foodista_filtered (Foodista). CC BY 3.0.
+      - Common Pile v0.1 project_gutenberg_filtered, a sample of public-domain
+        books.
+      - Common Pile v0.1 youtube_filtered, first shard, only transcripts marked
+        CC BY 4.0.
+
+    Attribution: "Word counts derived from the Common Pile (EleutherAI et al.,
+    2025): news_filtered, foodista_filtered, project_gutenberg_filtered and
+    youtube_filtered; and from English Wikinews (Wikimedia Foundation,
+    CC BY 2.5)." Paragraphs that also appear in proseweave's open validation
+    corpus were left out of the counts.
+
+mag_news_freq.bin.xz
+    Word and phrase frequency tables for news and magazine-style writing:
+    lemma unigrams, lemma n-grams (2-4 words) and word-class-masked n-grams,
+    with counts. No running text is stored. Details:
+    data/LICENSE_mag_news_freq.md. Build script: tools/build_mag_news_freq.py.
+
+    Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).
+    Counted from:
+
+      - Common Pile v0.1 news_filtered (Kandpal et al., 2025, "The Common Pile
+        v0.1"): Global Voices and the other news sites collected there, only
+        the articles published under CC BY 4.0 (CC BY-SA articles skipped).
+      - English Wikinews, snapshot of 2023-07-28. CC BY 2.5.
+      - Common Pile v0.1 foodista_filtered (Foodista). CC BY 3.0.
+      - Common Pile v0.1 project_gutenberg_filtered, a 10M-word sample of books
+        marked public domain.
+
+    Counted from scratch from the open sources above. Not derived from COCA or
+    from any other tool's frequency lists.
+
+    Attribution: "Word and phrase counts derived from Global Voices, Wikinews,
+    Foodista, the news sites collected in Common Pile v0.1 (Kandpal et al.,
+    2025, The Common Pile v0.1), and Project Gutenberg texts, used under
+    CC BY 4.0, CC BY 3.0, CC BY 2.5 and public domain terms respectively."
+
+    Tokens, word classes and lemmas for the build came from proseweave's own
+    bundled parser and tagger rules (see syntax_en.bin.gz above), at build
+    time, without Jev.
+
+similarity_glove.bin.gz, similarity_wiki.bin.gz, similarity_sent.bin.gz,
+similarity_routes.json
+    Semantic spaces for the similarity indices (similarity.py): word vectors
+    only, 4-bit quantised; no running text is stored. Details:
+    data/SIMILARITY_NOTICE.md. Each licence has its own file, so share-alike
+    terms apply only to the file whose inputs carry them.
+
+    similarity_glove.bin.gz - GloVe 6B 100d word vectors: Jeffrey Pennington,
+        Richard Socher and Christopher D. Manning (2014), "GloVe: Global
+        Vectors for Word Representation", EMNLP. Made available under the
+        Open Data Commons Public Domain Dedication and License (PDDL) 1.0,
+        https://opendatacommons.org/licenses/pddl/1-0/.
+
+    similarity_wiki.bin.gz - an LSA space and a word2vec space trained on
+        WikiText-103: Stephen Merity, Caiming Xiong, James Bradbury and
+        Richard Socher (2016), "Pointer Sentinel Mixture Models". The text is
+        by the Wikipedia contributors under CC BY-SA 3.0. This file is an
+        adaptation of it and is licensed CC BY-SA 3.0
+        (https://creativecommons.org/licenses/by-sa/3.0/). The licence covers
+        this file only.
+
+    similarity_sent.bin.gz - a static vector for each WordPiece token of
+        sentence-transformers' all-MiniLM-L6-v2 (Nils Reimers, Iryna Gurevych
+        and the sentence-transformers contributors; revision
+        1110a243fdf4706b3f48f1d95db1a4f5529b4d41), plus that model's token
+        vocabulary, fitted so that summed sentence vectors reproduce the
+        model's sentence similarities. Training used 16.6M public-domain sentences
+        only:
+          - 1,654 Project Gutenberg books (public domain in the United States; no
+            Project Gutenberg header, licence text or trademark is used);
+          - the US Congressional Record and congressional hearing
+            transcripts, works of the US federal government (17 U.S.C. 105),
+            obtained through the Common Pile v0.1 usgpo_filtered collection
+            (Kandpal et al. 2025).
+        Only fitted token vectors are stored, not the model. Licensed under the Apache
+        License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0),
+        the licence of the model; full text in data/LICENSE_Apache-2.0.md:
+
+            Licensed under the Apache License, Version 2.0 (the "License");
+            you may not use this file except in compliance with the License.
+            Unless required by applicable law or agreed to in writing,
+            software distributed under the License is distributed on an "AS
+            IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either
+            express or implied. See the License for the specific language
+            governing permissions and limitations under the License.
+
+    similarity_routes.json - proseweave's own fitted blend weights and
+        calibration constants, MIT like the code.
+
+connectives_en.json
+    proseweave's inventory of English connectives, grouped by the relation
+    each signals. Compiled independently for proseweave and released under
+    proseweave's MIT licence. The category definitions draw on the published
+    taxonomies of Halliday & Hasan (1976), Cohesion in English; Quirk,
+    Greenbaum, Leech & Svartvik (1985), A Comprehensive Grammar of the English
+    Language; Sanders, Spooren & Noordman (1992), "Toward a taxonomy of
+    coherence relations"; Louwerse (2001), "An analytic and cognitive
+    parametrization of coherence relations"; and Graesser, McNamara, Louwerse
+    & Cai (2004), "Coh-Metrix: Analysis of text on cohesion and language". The
+    members were chosen from general knowledge of English; no other tool's
+    word lists were consulted.
+
+Independence
+============
+
+proseweave's indices follow the definitions in the published cohesion research
+(Crossley, Kyle & McNamara 2016; Crossley, Kyle & Dascalu 2019; McNamara,
+Graesser, McCarthy & Cai 2014, and the other works cited in README.md). Its
+outputs were scored against reference outputs (TAACO 2.0 for the cohesion and
+source indices, a spaCy-based feature script for the basic features, and an LLM
+judge for the easability components; run by us, not redistributed) to check
+that each index measures what it should. proseweave
+contains none of those tools' code, word lists or data files; its own data files
+are listed above. proseweave is independent and not affiliated with or endorsed
+by the authors of these tools.

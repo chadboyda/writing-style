@@ -1,0 +1,141 @@
+{
+  "skill_name": "writing-style",
+  "notes": "Fixtures are self-contained (see fixtures/make_fixtures.py) so runs do not depend on the user's Slack/Gmail/Drive being reachable. Author persona: Dana Reyes - lowercase commit subjects, em dashes, bold labels, owns mistakes, hedges on next steps. Per-eval `files` is a hard contract enforced by setup_runs.py - iteration 1 initially copied every fixture into every run directory, which invalidated the no-samples case and put the reference answer next to the humanize case.",
+  "evals": [
+    {
+      "id": 0,
+      "name": "voice-match-from-git",
+      "prompt": "I'm about to commit a fix in the fernpost-api repo. I changed the pagination cursor so the limit param is actually respected when a filter is applied - before, passing a filter would quietly return the whole result set. Write the commit message for me.",
+      "expected_output": "A commit message matching Dana's git voice: lowercase subject with no trailing period, a body that says why it mattered rather than restating the diff, and the hedging/ownership habit visible. Just the message - no narration of the search.",
+      "files": [
+        "fernpost-api/"
+      ],
+      "assertions": [
+        {
+          "id": "a0",
+          "text": "Subject line is lowercase (matches all 8 prior commits)"
+        },
+        {
+          "id": "a1",
+          "text": "Subject line has no trailing period"
+        },
+        {
+          "id": "a2",
+          "text": "Body explains why the bug mattered, not just what changed"
+        },
+        {
+          "id": "a3",
+          "text": "Output is the commit message itself, not a report on how sources were searched"
+        },
+        {
+          "id": "a4",
+          "text": "check_ai_tells.py scan exits 0 (no mechanical tells)"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "humanize-preserving-habits",
+      "prompt": "This Q3 update draft reads like a robot wrote it - can you rewrite it so it sounds like me? My past updates are in slack-history.md. The draft is q3-draft-slop.md.",
+      "expected_output": "AI tells removed (testament/pivotal/underscore vocabulary, inline-header bullets, negative parallelism, Title Case heading, chatbot sign-off, formulaic challenges section) WHILE retaining Dana's genuine habits - em dashes and bold labels both appear in her real Slack history and must survive.",
+      "files": [
+        "q3-draft-slop.md",
+        "slack-history.md"
+      ],
+      "assertions": [
+        {
+          "id": "b0",
+          "text": "AI vocabulary removed: no 'testament', 'pivotal', 'underscore', 'myriad', 'seamless', 'foster'"
+        },
+        {
+          "id": "b1",
+          "text": "Chatbot sign-off 'I hope this helps' / 'Let me know if' removed"
+        },
+        {
+          "id": "b2",
+          "text": "Negative parallelism ('not just X, it's Y') removed"
+        },
+        {
+          "id": "b3",
+          "text": "Inline-header bullet list ('- **Synchronization:** ...') removed or restructured"
+        },
+        {
+          "id": "b4",
+          "text": "PRESERVES em dashes - they are in Dana's baseline at 31/1k and are not an AI tell for her"
+        },
+        {
+          "id": "b5",
+          "text": "PRESERVES lowercase-prose or bold-label habit visible in her Slack history"
+        },
+        {
+          "id": "b6",
+          "text": "Output is the rewritten draft, not a changelog of edits made"
+        },
+        {
+          "id": "b7",
+          "text": "Retains all three items from the SOURCE DRAFT (dedupe, retries, caching) - checked against the draft, not the author's history, since the skill's rule is carry voice not content"
+        }
+      ],
+      "notes": "A length floor was tried and removed: it rewards padding, and a thin source honestly rewritten is legitimately short. Substance is checked by item coverage (b7) instead."
+    },
+    {
+      "id": 2,
+      "name": "no-samples-fallback",
+      "prompt": "Write a short internal announcement telling the team that the Friday deploy window is moving to Tuesday mornings starting next month, because Friday incidents keep eating people's weekends. Two or three paragraphs.",
+      "expected_output": "Composes without any retrievable samples. Must not claim to have read the user's past writing, must not fabricate sources, must still avoid slop, and must not be so neutral it reads as generated.",
+      "files": [],
+      "assertions": [
+        {
+          "id": "c0",
+          "text": "Does not claim to have read or matched the user's past writing"
+        },
+        {
+          "id": "c1",
+          "text": "Does not fabricate source links or file paths"
+        },
+        {
+          "id": "c2",
+          "text": "check_ai_tells.py scan exits 0 (no mechanical tells)"
+        },
+        {
+          "id": "c3",
+          "text": "States the actual reason (weekend incidents) rather than vague 'operational excellence' framing"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "over-correction-guard",
+      "prompt": "Give q3-draft-clean.md a once-over before I post it. My past updates are in slack-history.md.",
+      "expected_output": "The draft is already clean and already in Dana's voice. The correct behavior is to leave it substantially alone - not to 'improve' it into neutral corporate prose, and specifically not to strip the lowercase style or em dashes that are her actual habits.",
+      "files": [
+        "q3-draft-clean.md",
+        "slack-history.md",
+        "fernpost-api/"
+      ],
+      "assertions": [
+        {
+          "id": "d0",
+          "text": "Does not rewrite wholesale - output retains majority of original wording"
+        },
+        {
+          "id": "d1",
+          "text": "PRESERVES em dashes present in the original"
+        },
+        {
+          "id": "d2",
+          "text": "PRESERVES the lowercase prose style of the original"
+        },
+        {
+          "id": "d3",
+          "text": "Does not introduce AI vocabulary or inline-header bullets that were not there"
+        },
+        {
+          "id": "d4",
+          "text": "Any changes proposed are specific and few, not a full reflow"
+        }
+      ],
+      "notes": "git history is included deliberately: verifying a factual claim in the draft against the commit log is realistic behavior for this skill, and the iteration-1 run did exactly that."
+    }
+  ]
+}

@@ -1,0 +1,2638 @@
+{
+ "addition": {
+  "family": "connective",
+  "question": "How densely does the text use words that add a point, such as also, moreover, in addition, furthermore?",
+  "valid": true,
+  "private": {
+   "rho": 0.952,
+   "lower90": 0.928
+  },
+  "open": {
+   "rho": 0.962,
+   "lower90": 0.938
+  }
+ },
+ "adj_ratio": {
+  "family": "pos",
+  "question": "What share of the content words are adjectives?",
+  "valid": true,
+  "private": {
+   "rho": 0.957,
+   "lower90": 0.933
+  },
+  "open": {
+   "rho": 0.982,
+   "lower90": 0.972
+  }
+ },
+ "adj_ttr": {
+  "family": "ttr",
+  "question": "How varied is the text's vocabulary of its adjectives? Does it keep reusing the same ones, or does almost every one appear only once?",
+  "valid": true,
+  "private": {
+   "rho": 0.955,
+   "lower90": 0.93
+  },
+  "open": {
+   "rho": 0.968,
+   "lower90": 0.948
+  }
+ },
+ "adjacent_overlap_2_adj_para": {
+  "family": "overlap",
+  "question": "Consider how each paragraph relates to the next two paragraphs. How much do they repeat the same adjectives (adjectives)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.935,
+   "lower90": 0.897
+  },
+  "open": {
+   "rho": 0.976,
+   "lower90": 0.959
+  }
+ },
+ "adjacent_overlap_2_adj_para_div_seg": {
+  "family": "overlap",
+  "question": "Consider how each paragraph relates to the next two paragraphs. How much do they repeat the same adjectives (adjectives)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.956,
+   "lower90": 0.931
+  },
+  "open": {
+   "rho": 0.99,
+   "lower90": 0.982
+  }
+ },
+ "adjacent_overlap_2_adj_sent": {
+  "family": "overlap",
+  "question": "Consider how each sentence relates to the next two sentences. How much do they repeat the same adjectives (adjectives)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.899,
+   "lower90": 0.834
+  },
+  "open": {
+   "rho": 0.961,
+   "lower90": 0.942
+  }
+ },
+ "adjacent_overlap_2_adj_sent_div_seg": {
+  "family": "overlap",
+  "question": "Consider how each sentence relates to the next two sentences. How much do they repeat the same adjectives (adjectives)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.919,
+   "lower90": 0.865
+  },
+  "open": {
+   "rho": 0.974,
+   "lower90": 0.961
+  }
+ },
+ "adjacent_overlap_2_adv_para": {
+  "family": "overlap",
+  "question": "Consider how each paragraph relates to the next two paragraphs. How much do they repeat the same adverbs (adverbs)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.98,
+   "lower90": 0.962
+  },
+  "open": {
+   "rho": 0.977,
+   "lower90": 0.96
+  }
+ },
+ "adjacent_overlap_2_adv_para_div_seg": {
+  "family": "overlap",
+  "question": "Consider how each paragraph relates to the next two paragraphs. How much do they repeat the same adverbs (adverbs)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.992,
+   "lower90": 0.984
+  },
+  "open": {
+   "rho": 0.991,
+   "lower90": 0.982
+  }
+ },
+ "adjacent_overlap_2_adv_sent": {
+  "family": "overlap",
+  "question": "Consider how each sentence relates to the next two sentences. How much do they repeat the same adverbs (adverbs)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.965,
+   "lower90": 0.939
+  },
+  "open": {
+   "rho": 0.963,
+   "lower90": 0.926
+  }
+ },
+ "adjacent_overlap_2_adv_sent_div_seg": {
+  "family": "overlap",
+  "question": "Consider how each sentence relates to the next two sentences. How much do they repeat the same adverbs (adverbs)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.966,
+   "lower90": 0.94
+  },
+  "open": {
+   "rho": 0.988,
+   "lower90": 0.978
+  }
+ },
+ "adjacent_overlap_2_all_para": {
+  "family": "overlap",
+  "question": "Consider how each paragraph relates to the next two paragraphs. How much do they repeat the same words (any word at all)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.998,
+   "lower90": 0.994
+  },
+  "open": {
+   "rho": 0.999,
+   "lower90": 0.998
+  }
+ },
+ "adjacent_overlap_2_all_para_div_seg": {
+  "family": "overlap",
+  "question": "Consider how each paragraph relates to the next two paragraphs. How much do they repeat the same words (any word at all)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.999,
+   "lower90": 0.998
+  },
+  "open": {
+   "rho": 1.0,
+   "lower90": 0.999
+  }
+ },
+ "adjacent_overlap_2_all_sent": {
+  "family": "overlap",
+  "question": "Consider how each sentence relates to the next two sentences. How much do they repeat the same words (any word at all)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.975,
+   "lower90": 0.947
+  },
+  "open": {
+   "rho": 0.994,
+   "lower90": 0.985
+  }
+ },
+ "adjacent_overlap_2_all_sent_div_seg": {
+  "family": "overlap",
+  "question": "Consider how each sentence relates to the next two sentences. How much do they repeat the same words (any word at all)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.986,
+   "lower90": 0.972
+  },
+  "open": {
+   "rho": 0.996,
+   "lower90": 0.991
+  }
+ },
+ "adjacent_overlap_2_argument_para": {
+  "family": "overlap",
+  "question": "Consider how each paragraph relates to the next two paragraphs. How much do they repeat the same nouns and pronouns (nouns and pronouns - the words that name who or what a sentence is about)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.993,
+   "lower90": 0.987
+  },
+  "open": {
+   "rho": 0.994,
+   "lower90": 0.988
+  }
+ },
+ "adjacent_overlap_2_argument_para_div_seg": {
+  "family": "overlap",
+  "question": "Consider how each paragraph relates to the next two paragraphs. How much do they repeat the same nouns and pronouns (nouns and pronouns - the words that name who or what a sentence is about)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.997,
+   "lower90": 0.993
+  },
+  "open": {
+   "rho": 0.996,
+   "lower90": 0.991
+  }
+ },
+ "adjacent_overlap_2_argument_sent": {
+  "family": "overlap",
+  "question": "Consider how each sentence relates to the next two sentences. How much do they repeat the same nouns and pronouns (nouns and pronouns - the words that name who or what a sentence is about)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.987,
+   "lower90": 0.976
+  },
+  "open": {
+   "rho": 0.995,
+   "lower90": 0.99
+  }
+ },
+ "adjacent_overlap_2_argument_sent_div_seg": {
+  "family": "overlap",
+  "question": "Consider how each sentence relates to the next two sentences. How much do they repeat the same nouns and pronouns (nouns and pronouns - the words that name who or what a sentence is about)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.976,
+   "lower90": 0.956
+  },
+  "open": {
+   "rho": 0.994,
+   "lower90": 0.987
+  }
+ },
+ "adjacent_overlap_2_cw_para": {
+  "family": "overlap",
+  "question": "Consider how each paragraph relates to the next two paragraphs. How much do they repeat the same content words (the meaning-carrying words: nouns, main verbs, adjectives and adverbs)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.997,
+   "lower90": 0.994
+  },
+  "open": {
+   "rho": 0.997,
+   "lower90": 0.993
+  }
+ },
+ "adjacent_overlap_2_cw_para_div_seg": {
+  "family": "overlap",
+  "question": "Consider how each paragraph relates to the next two paragraphs. How much do they repeat the same content words (the meaning-carrying words: nouns, main verbs, adjectives and adverbs)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.998,
+   "lower90": 0.995
+  },
+  "open": {
+   "rho": 0.999,
+   "lower90": 0.998
+  }
+ },
+ "adjacent_overlap_2_cw_sent": {
+  "family": "overlap",
+  "question": "Consider how each sentence relates to the next two sentences. How much do they repeat the same content words (the meaning-carrying words: nouns, main verbs, adjectives and adverbs)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.967,
+   "lower90": 0.934
+  },
+  "open": {
+   "rho": 0.995,
+   "lower90": 0.989
+  }
+ },
+ "adjacent_overlap_2_cw_sent_div_seg": {
+  "family": "overlap",
+  "question": "Consider how each sentence relates to the next two sentences. How much do they repeat the same content words (the meaning-carrying words: nouns, main verbs, adjectives and adverbs)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.971,
+   "lower90": 0.943
+  },
+  "open": {
+   "rho": 0.996,
+   "lower90": 0.992
+  }
+ },
+ "adjacent_overlap_2_fw_para": {
+  "family": "overlap",
+  "question": "Consider how each paragraph relates to the next two paragraphs. How much do they repeat the same function words (the small grammatical words such as the, of, and, to, it, was)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.993,
+   "lower90": 0.987
+  },
+  "open": {
+   "rho": 0.983,
+   "lower90": 0.972
+  }
+ },
+ "adjacent_overlap_2_fw_para_div_seg": {
+  "family": "overlap",
+  "question": "Consider how each paragraph relates to the next two paragraphs. How much do they repeat the same function words (the small grammatical words such as the, of, and, to, it, was)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.998,
+   "lower90": 0.995
+  },
+  "open": {
+   "rho": 0.999,
+   "lower90": 0.997
+  }
+ },
+ "adjacent_overlap_2_fw_sent": {
+  "family": "overlap",
+  "question": "Consider how each sentence relates to the next two sentences. How much do they repeat the same function words (the small grammatical words such as the, of, and, to, it, was)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.989,
+   "lower90": 0.979
+  },
+  "open": {
+   "rho": 0.986,
+   "lower90": 0.972
+  }
+ },
+ "adjacent_overlap_2_fw_sent_div_seg": {
+  "family": "overlap",
+  "question": "Consider how each sentence relates to the next two sentences. How much do they repeat the same function words (the small grammatical words such as the, of, and, to, it, was)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.988,
+   "lower90": 0.975
+  },
+  "open": {
+   "rho": 0.997,
+   "lower90": 0.992
+  }
+ },
+ "adjacent_overlap_2_noun_para": {
+  "family": "overlap",
+  "question": "Consider how each paragraph relates to the next two paragraphs. How much do they repeat the same nouns (nouns)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.993,
+   "lower90": 0.986
+  },
+  "open": {
+   "rho": 0.995,
+   "lower90": 0.991
+  }
+ },
+ "adjacent_overlap_2_noun_para_div_seg": {
+  "family": "overlap",
+  "question": "Consider how each paragraph relates to the next two paragraphs. How much do they repeat the same nouns (nouns)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.996,
+   "lower90": 0.992
+  },
+  "open": {
+   "rho": 0.993,
+   "lower90": 0.985
+  }
+ },
+ "adjacent_overlap_2_noun_sent": {
+  "family": "overlap",
+  "question": "Consider how each sentence relates to the next two sentences. How much do they repeat the same nouns (nouns)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.971,
+   "lower90": 0.944
+  },
+  "open": {
+   "rho": 0.991,
+   "lower90": 0.985
+  }
+ },
+ "adjacent_overlap_2_noun_sent_div_seg": {
+  "family": "overlap",
+  "question": "Consider how each sentence relates to the next two sentences. How much do they repeat the same nouns (nouns)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.969,
+   "lower90": 0.938
+  },
+  "open": {
+   "rho": 0.989,
+   "lower90": 0.977
+  }
+ },
+ "adjacent_overlap_2_pronoun_para": {
+  "family": "overlap",
+  "question": "Consider how each paragraph relates to the next two paragraphs. How much do they repeat the same pronouns (pronouns such as he, she, it, they, we)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.985,
+   "lower90": 0.972
+  },
+  "open": {
+   "rho": 0.99,
+   "lower90": 0.982
+  }
+ },
+ "adjacent_overlap_2_pronoun_para_div_seg": {
+  "family": "overlap",
+  "question": "Consider how each paragraph relates to the next two paragraphs. How much do they repeat the same pronouns (pronouns such as he, she, it, they, we)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.997,
+   "lower90": 0.993
+  },
+  "open": {
+   "rho": 0.998,
+   "lower90": 0.995
+  }
+ },
+ "adjacent_overlap_2_pronoun_sent": {
+  "family": "overlap",
+  "question": "Consider how each sentence relates to the next two sentences. How much do they repeat the same pronouns (pronouns such as he, she, it, they, we)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.992,
+   "lower90": 0.984
+  },
+  "open": {
+   "rho": 0.99,
+   "lower90": 0.982
+  }
+ },
+ "adjacent_overlap_2_pronoun_sent_div_seg": {
+  "family": "overlap",
+  "question": "Consider how each sentence relates to the next two sentences. How much do they repeat the same pronouns (pronouns such as he, she, it, they, we)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.995,
+   "lower90": 0.989
+  },
+  "open": {
+   "rho": 0.997,
+   "lower90": 0.994
+  }
+ },
+ "adjacent_overlap_2_verb_para": {
+  "family": "overlap",
+  "question": "Consider how each paragraph relates to the next two paragraphs. How much do they repeat the same verbs (verbs)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.963,
+   "lower90": 0.944
+  },
+  "open": {
+   "rho": 0.981,
+   "lower90": 0.968
+  }
+ },
+ "adjacent_overlap_2_verb_para_div_seg": {
+  "family": "overlap",
+  "question": "Consider how each paragraph relates to the next two paragraphs. How much do they repeat the same verbs (verbs)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.975,
+   "lower90": 0.954
+  },
+  "open": {
+   "rho": 0.991,
+   "lower90": 0.983
+  }
+ },
+ "adjacent_overlap_2_verb_sent": {
+  "family": "overlap",
+  "question": "Consider how each sentence relates to the next two sentences. How much do they repeat the same verbs (verbs)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.967,
+   "lower90": 0.946
+  },
+  "open": {
+   "rho": 0.975,
+   "lower90": 0.957
+  }
+ },
+ "adjacent_overlap_2_verb_sent_div_seg": {
+  "family": "overlap",
+  "question": "Consider how each sentence relates to the next two sentences. How much do they repeat the same verbs (verbs)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.97,
+   "lower90": 0.952
+  },
+  "open": {
+   "rho": 0.983,
+   "lower90": 0.972
+  }
+ },
+ "adjacent_overlap_adj_para": {
+  "family": "overlap",
+  "question": "Consider how each paragraph relates to the paragraph right after it. How much do they repeat the same adjectives (adjectives)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.924,
+   "lower90": 0.872
+  },
+  "open": {
+   "rho": 0.966,
+   "lower90": 0.941
+  }
+ },
+ "adjacent_overlap_adj_para_div_seg": {
+  "family": "overlap",
+  "question": "Consider how each paragraph relates to the paragraph right after it. How much do they repeat the same adjectives (adjectives)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.932,
+   "lower90": 0.89
+  },
+  "open": {
+   "rho": 0.985,
+   "lower90": 0.97
+  }
+ },
+ "adjacent_overlap_adj_sent": {
+  "family": "overlap",
+  "question": "Consider how each sentence relates to the sentence right after it. How much do they repeat the same adjectives (adjectives)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.933,
+   "lower90": 0.893
+  },
+  "open": {
+   "rho": 0.948,
+   "lower90": 0.905
+  }
+ },
+ "adjacent_overlap_adj_sent_div_seg": {
+  "family": "overlap",
+  "question": "Consider how each sentence relates to the sentence right after it. How much do they repeat the same adjectives (adjectives)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.951,
+   "lower90": 0.921
+  },
+  "open": {
+   "rho": 0.942,
+   "lower90": 0.894
+  }
+ },
+ "adjacent_overlap_adv_para": {
+  "family": "overlap",
+  "question": "Consider how each paragraph relates to the paragraph right after it. How much do they repeat the same adverbs (adverbs)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.981,
+   "lower90": 0.964
+  },
+  "open": {
+   "rho": 0.975,
+   "lower90": 0.955
+  }
+ },
+ "adjacent_overlap_adv_para_div_seg": {
+  "family": "overlap",
+  "question": "Consider how each paragraph relates to the paragraph right after it. How much do they repeat the same adverbs (adverbs)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.991,
+   "lower90": 0.982
+  },
+  "open": {
+   "rho": 0.987,
+   "lower90": 0.975
+  }
+ },
+ "adjacent_overlap_adv_sent": {
+  "family": "overlap",
+  "question": "Consider how each sentence relates to the sentence right after it. How much do they repeat the same adverbs (adverbs)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.946,
+   "lower90": 0.879
+  },
+  "open": {
+   "rho": 0.96,
+   "lower90": 0.912
+  }
+ },
+ "adjacent_overlap_adv_sent_div_seg": {
+  "family": "overlap",
+  "question": "Consider how each sentence relates to the sentence right after it. How much do they repeat the same adverbs (adverbs)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.938,
+   "lower90": 0.853
+  },
+  "open": {
+   "rho": 0.992,
+   "lower90": 0.983
+  }
+ },
+ "adjacent_overlap_all_para": {
+  "family": "overlap",
+  "question": "Consider how each paragraph relates to the paragraph right after it. How much do they repeat the same words (any word at all)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.999,
+   "lower90": 0.997
+  },
+  "open": {
+   "rho": 0.999,
+   "lower90": 0.997
+  }
+ },
+ "adjacent_overlap_all_para_div_seg": {
+  "family": "overlap",
+  "question": "Consider how each paragraph relates to the paragraph right after it. How much do they repeat the same words (any word at all)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 1.0,
+   "lower90": 0.999
+  },
+  "open": {
+   "rho": 1.0,
+   "lower90": 0.999
+  }
+ },
+ "adjacent_overlap_all_sent": {
+  "family": "overlap",
+  "question": "Consider how each sentence relates to the sentence right after it. How much do they repeat the same words (any word at all)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.987,
+   "lower90": 0.975
+  },
+  "open": {
+   "rho": 0.994,
+   "lower90": 0.987
+  }
+ },
+ "adjacent_overlap_all_sent_div_seg": {
+  "family": "overlap",
+  "question": "Consider how each sentence relates to the sentence right after it. How much do they repeat the same words (any word at all)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.99,
+   "lower90": 0.98
+  },
+  "open": {
+   "rho": 0.992,
+   "lower90": 0.983
+  }
+ },
+ "adjacent_overlap_argument_para": {
+  "family": "overlap",
+  "question": "Consider how each paragraph relates to the paragraph right after it. How much do they repeat the same nouns and pronouns (nouns and pronouns - the words that name who or what a sentence is about)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.995,
+   "lower90": 0.991
+  },
+  "open": {
+   "rho": 0.995,
+   "lower90": 0.989
+  }
+ },
+ "adjacent_overlap_argument_para_div_seg": {
+  "family": "overlap",
+  "question": "Consider how each paragraph relates to the paragraph right after it. How much do they repeat the same nouns and pronouns (nouns and pronouns - the words that name who or what a sentence is about)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.996,
+   "lower90": 0.99
+  },
+  "open": {
+   "rho": 0.997,
+   "lower90": 0.993
+  }
+ },
+ "adjacent_overlap_argument_sent": {
+  "family": "overlap",
+  "question": "Consider how each sentence relates to the sentence right after it. How much do they repeat the same nouns and pronouns (nouns and pronouns - the words that name who or what a sentence is about)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.978,
+   "lower90": 0.958
+  },
+  "open": {
+   "rho": 0.996,
+   "lower90": 0.991
+  }
+ },
+ "adjacent_overlap_argument_sent_div_seg": {
+  "family": "overlap",
+  "question": "Consider how each sentence relates to the sentence right after it. How much do they repeat the same nouns and pronouns (nouns and pronouns - the words that name who or what a sentence is about)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.982,
+   "lower90": 0.97
+  },
+  "open": {
+   "rho": 0.993,
+   "lower90": 0.988
+  }
+ },
+ "adjacent_overlap_binary_2_adj_para": {
+  "family": "overlap",
+  "question": "How often does a paragraph share at least one of the same adjectives (adjectives) with the next two paragraphs?",
+  "valid": true,
+  "private": {
+   "rho": 0.942,
+   "lower90": 0.909
+  },
+  "open": {
+   "rho": 0.969,
+   "lower90": 0.934
+  }
+ },
+ "adjacent_overlap_binary_2_adj_sent": {
+  "family": "overlap",
+  "question": "How often does a sentence share at least one of the same adjectives (adjectives) with the next two sentences?",
+  "valid": true,
+  "private": {
+   "rho": 0.912,
+   "lower90": 0.856
+  },
+  "open": {
+   "rho": 0.972,
+   "lower90": 0.957
+  }
+ },
+ "adjacent_overlap_binary_2_adv_para": {
+  "family": "overlap",
+  "question": "How often does a paragraph share at least one of the same adverbs (adverbs) with the next two paragraphs?",
+  "valid": true,
+  "private": {
+   "rho": 0.992,
+   "lower90": 0.983
+  },
+  "open": {
+   "rho": 0.986,
+   "lower90": 0.973
+  }
+ },
+ "adjacent_overlap_binary_2_adv_sent": {
+  "family": "overlap",
+  "question": "How often does a sentence share at least one of the same adverbs (adverbs) with the next two sentences?",
+  "valid": true,
+  "private": {
+   "rho": 0.967,
+   "lower90": 0.945
+  },
+  "open": {
+   "rho": 0.986,
+   "lower90": 0.968
+  }
+ },
+ "adjacent_overlap_binary_2_all_para": {
+  "family": "overlap",
+  "question": "How often does a paragraph share at least one of the same words (any word at all) with the next two paragraphs?",
+  "valid": false,
+  "private": {
+   "rho": 0.989,
+   "lower90": 0.965
+  },
+  "open": {
+   "status": "flat reference"
+  }
+ },
+ "adjacent_overlap_binary_2_all_sent": {
+  "family": "overlap",
+  "question": "How often does a sentence share at least one of the same words (any word at all) with the next two sentences?",
+  "valid": true,
+  "private": {
+   "rho": 0.858,
+   "lower90": 0.766
+  },
+  "open": {
+   "rho": 0.94,
+   "lower90": 0.884
+  }
+ },
+ "adjacent_overlap_binary_2_argument_para": {
+  "family": "overlap",
+  "question": "How often does a paragraph share at least one of the same nouns and pronouns (nouns and pronouns - the words that name who or what a sentence is about) with the next two paragraphs?",
+  "valid": true,
+  "private": {
+   "rho": 0.989,
+   "lower90": 0.974
+  },
+  "open": {
+   "rho": 0.996,
+   "lower90": 0.991
+  }
+ },
+ "adjacent_overlap_binary_2_argument_sent": {
+  "family": "overlap",
+  "question": "How often does a sentence share at least one of the same nouns and pronouns (nouns and pronouns - the words that name who or what a sentence is about) with the next two sentences?",
+  "valid": true,
+  "private": {
+   "rho": 0.976,
+   "lower90": 0.959
+  },
+  "open": {
+   "rho": 0.987,
+   "lower90": 0.976
+  }
+ },
+ "adjacent_overlap_binary_2_cw_para": {
+  "family": "overlap",
+  "question": "How often does a paragraph share at least one of the same content words (the meaning-carrying words: nouns, main verbs, adjectives and adverbs) with the next two paragraphs?",
+  "valid": true,
+  "private": {
+   "rho": 0.982,
+   "lower90": 0.964
+  },
+  "open": {
+   "rho": 0.999,
+   "lower90": 0.996
+  }
+ },
+ "adjacent_overlap_binary_2_cw_sent": {
+  "family": "overlap",
+  "question": "How often does a sentence share at least one of the same content words (the meaning-carrying words: nouns, main verbs, adjectives and adverbs) with the next two sentences?",
+  "valid": true,
+  "private": {
+   "rho": 0.975,
+   "lower90": 0.957
+  },
+  "open": {
+   "rho": 0.993,
+   "lower90": 0.986
+  }
+ },
+ "adjacent_overlap_binary_2_fw_para": {
+  "family": "overlap",
+  "question": "How often does a paragraph share at least one of the same function words (the small grammatical words such as the, of, and, to, it, was) with the next two paragraphs?",
+  "valid": false,
+  "private": {
+   "rho": 0.979,
+   "lower90": 0.955
+  },
+  "open": {
+   "status": "flat reference"
+  }
+ },
+ "adjacent_overlap_binary_2_fw_sent": {
+  "family": "overlap",
+  "question": "How often does a sentence share at least one of the same function words (the small grammatical words such as the, of, and, to, it, was) with the next two sentences?",
+  "valid": true,
+  "private": {
+   "rho": 0.935,
+   "lower90": 0.883
+  },
+  "open": {
+   "rho": 0.952,
+   "lower90": 0.918
+  }
+ },
+ "adjacent_overlap_binary_2_noun_para": {
+  "family": "overlap",
+  "question": "How often does a paragraph share at least one of the same nouns (nouns) with the next two paragraphs?",
+  "valid": true,
+  "private": {
+   "rho": 0.983,
+   "lower90": 0.971
+  },
+  "open": {
+   "rho": 0.997,
+   "lower90": 0.992
+  }
+ },
+ "adjacent_overlap_binary_2_noun_sent": {
+  "family": "overlap",
+  "question": "How often does a sentence share at least one of the same nouns (nouns) with the next two sentences?",
+  "valid": true,
+  "private": {
+   "rho": 0.974,
+   "lower90": 0.953
+  },
+  "open": {
+   "rho": 0.987,
+   "lower90": 0.975
+  }
+ },
+ "adjacent_overlap_binary_2_pronoun_para": {
+  "family": "overlap",
+  "question": "How often does a paragraph share at least one of the same pronouns (pronouns such as he, she, it, they, we) with the next two paragraphs?",
+  "valid": true,
+  "private": {
+   "rho": 0.997,
+   "lower90": 0.992
+  },
+  "open": {
+   "rho": 1.0,
+   "lower90": 0.998
+  }
+ },
+ "adjacent_overlap_binary_2_pronoun_sent": {
+  "family": "overlap",
+  "question": "How often does a sentence share at least one of the same pronouns (pronouns such as he, she, it, they, we) with the next two sentences?",
+  "valid": true,
+  "private": {
+   "rho": 0.995,
+   "lower90": 0.99
+  },
+  "open": {
+   "rho": 0.997,
+   "lower90": 0.993
+  }
+ },
+ "adjacent_overlap_binary_2_verb_para": {
+  "family": "overlap",
+  "question": "How often does a paragraph share at least one of the same verbs (verbs) with the next two paragraphs?",
+  "valid": true,
+  "private": {
+   "rho": 0.943,
+   "lower90": 0.906
+  },
+  "open": {
+   "rho": 0.99,
+   "lower90": 0.981
+  }
+ },
+ "adjacent_overlap_binary_2_verb_sent": {
+  "family": "overlap",
+  "question": "How often does a sentence share at least one of the same verbs (verbs) with the next two sentences?",
+  "valid": true,
+  "private": {
+   "rho": 0.961,
+   "lower90": 0.931
+  },
+  "open": {
+   "rho": 0.979,
+   "lower90": 0.965
+  }
+ },
+ "adjacent_overlap_binary_adj_para": {
+  "family": "overlap",
+  "question": "How often does a paragraph share at least one of the same adjectives (adjectives) with the paragraph right after it?",
+  "valid": true,
+  "private": {
+   "rho": 0.922,
+   "lower90": 0.876
+  },
+  "open": {
+   "rho": 0.977,
+   "lower90": 0.952
+  }
+ },
+ "adjacent_overlap_binary_adj_sent": {
+  "family": "overlap",
+  "question": "How often does a sentence share at least one of the same adjectives (adjectives) with the sentence right after it?",
+  "valid": true,
+  "private": {
+   "rho": 0.937,
+   "lower90": 0.897
+  },
+  "open": {
+   "rho": 0.936,
+   "lower90": 0.88
+  }
+ },
+ "adjacent_overlap_binary_adv_para": {
+  "family": "overlap",
+  "question": "How often does a paragraph share at least one of the same adverbs (adverbs) with the paragraph right after it?",
+  "valid": true,
+  "private": {
+   "rho": 0.993,
+   "lower90": 0.983
+  },
+  "open": {
+   "rho": 0.989,
+   "lower90": 0.977
+  }
+ },
+ "adjacent_overlap_binary_adv_sent": {
+  "family": "overlap",
+  "question": "How often does a sentence share at least one of the same adverbs (adverbs) with the sentence right after it?",
+  "valid": true,
+  "private": {
+   "rho": 0.934,
+   "lower90": 0.85
+  },
+  "open": {
+   "rho": 0.992,
+   "lower90": 0.982
+  }
+ },
+ "adjacent_overlap_binary_all_para": {
+  "family": "overlap",
+  "question": "How often does a paragraph share at least one of the same words (any word at all) with the paragraph right after it?",
+  "valid": true,
+  "private": {
+   "rho": 0.995,
+   "lower90": 0.987
+  },
+  "open": {
+   "rho": 1.0,
+   "lower90": 1.0
+  }
+ },
+ "adjacent_overlap_binary_all_sent": {
+  "family": "overlap",
+  "question": "How often does a sentence share at least one of the same words (any word at all) with the sentence right after it?",
+  "valid": true,
+  "private": {
+   "rho": 0.963,
+   "lower90": 0.941
+  },
+  "open": {
+   "rho": 0.976,
+   "lower90": 0.955
+  }
+ },
+ "adjacent_overlap_binary_argument_para": {
+  "family": "overlap",
+  "question": "How often does a paragraph share at least one of the same nouns and pronouns (nouns and pronouns - the words that name who or what a sentence is about) with the paragraph right after it?",
+  "valid": true,
+  "private": {
+   "rho": 0.991,
+   "lower90": 0.982
+  },
+  "open": {
+   "rho": 0.999,
+   "lower90": 0.998
+  }
+ },
+ "adjacent_overlap_binary_argument_sent": {
+  "family": "overlap",
+  "question": "How often does a sentence share at least one of the same nouns and pronouns (nouns and pronouns - the words that name who or what a sentence is about) with the sentence right after it?",
+  "valid": true,
+  "private": {
+   "rho": 0.983,
+   "lower90": 0.971
+  },
+  "open": {
+   "rho": 0.991,
+   "lower90": 0.983
+  }
+ },
+ "adjacent_overlap_binary_cw_para": {
+  "family": "overlap",
+  "question": "How often does a paragraph share at least one of the same content words (the meaning-carrying words: nouns, main verbs, adjectives and adverbs) with the paragraph right after it?",
+  "valid": true,
+  "private": {
+   "rho": 0.99,
+   "lower90": 0.978
+  },
+  "open": {
+   "rho": 1.0,
+   "lower90": 1.0
+  }
+ },
+ "adjacent_overlap_binary_cw_sent": {
+  "family": "overlap",
+  "question": "How often does a sentence share at least one of the same content words (the meaning-carrying words: nouns, main verbs, adjectives and adverbs) with the sentence right after it?",
+  "valid": true,
+  "private": {
+   "rho": 0.982,
+   "lower90": 0.968
+  },
+  "open": {
+   "rho": 0.996,
+   "lower90": 0.991
+  }
+ },
+ "adjacent_overlap_binary_fw_para": {
+  "family": "overlap",
+  "question": "How often does a paragraph share at least one of the same function words (the small grammatical words such as the, of, and, to, it, was) with the paragraph right after it?",
+  "valid": true,
+  "private": {
+   "rho": 0.985,
+   "lower90": 0.967
+  },
+  "open": {
+   "rho": 1.0,
+   "lower90": 1.0
+  }
+ },
+ "adjacent_overlap_binary_fw_sent": {
+  "family": "overlap",
+  "question": "How often does a sentence share at least one of the same function words (the small grammatical words such as the, of, and, to, it, was) with the sentence right after it?",
+  "valid": true,
+  "private": {
+   "rho": 0.977,
+   "lower90": 0.962
+  },
+  "open": {
+   "rho": 0.983,
+   "lower90": 0.968
+  }
+ },
+ "adjacent_overlap_binary_noun_para": {
+  "family": "overlap",
+  "question": "How often does a paragraph share at least one of the same nouns (nouns) with the paragraph right after it?",
+  "valid": true,
+  "private": {
+   "rho": 0.994,
+   "lower90": 0.987
+  },
+  "open": {
+   "rho": 0.999,
+   "lower90": 0.997
+  }
+ },
+ "adjacent_overlap_binary_noun_sent": {
+  "family": "overlap",
+  "question": "How often does a sentence share at least one of the same nouns (nouns) with the sentence right after it?",
+  "valid": true,
+  "private": {
+   "rho": 0.981,
+   "lower90": 0.966
+  },
+  "open": {
+   "rho": 0.991,
+   "lower90": 0.983
+  }
+ },
+ "adjacent_overlap_binary_pronoun_para": {
+  "family": "overlap",
+  "question": "How often does a paragraph share at least one of the same pronouns (pronouns such as he, she, it, they, we) with the paragraph right after it?",
+  "valid": true,
+  "private": {
+   "rho": 0.998,
+   "lower90": 0.996
+  },
+  "open": {
+   "rho": 0.997,
+   "lower90": 0.993
+  }
+ },
+ "adjacent_overlap_binary_pronoun_sent": {
+  "family": "overlap",
+  "question": "How often does a sentence share at least one of the same pronouns (pronouns such as he, she, it, they, we) with the sentence right after it?",
+  "valid": true,
+  "private": {
+   "rho": 0.996,
+   "lower90": 0.99
+  },
+  "open": {
+   "rho": 0.997,
+   "lower90": 0.991
+  }
+ },
+ "adjacent_overlap_binary_verb_para": {
+  "family": "overlap",
+  "question": "How often does a paragraph share at least one of the same verbs (verbs) with the paragraph right after it?",
+  "valid": true,
+  "private": {
+   "rho": 0.964,
+   "lower90": 0.942
+  },
+  "open": {
+   "rho": 0.946,
+   "lower90": 0.895
+  }
+ },
+ "adjacent_overlap_binary_verb_sent": {
+  "family": "overlap",
+  "question": "How often does a sentence share at least one of the same verbs (verbs) with the sentence right after it?",
+  "valid": true,
+  "private": {
+   "rho": 0.947,
+   "lower90": 0.907
+  },
+  "open": {
+   "rho": 0.98,
+   "lower90": 0.966
+  }
+ },
+ "adjacent_overlap_cw_para": {
+  "family": "overlap",
+  "question": "Consider how each paragraph relates to the paragraph right after it. How much do they repeat the same content words (the meaning-carrying words: nouns, main verbs, adjectives and adverbs)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.997,
+   "lower90": 0.994
+  },
+  "open": {
+   "rho": 0.996,
+   "lower90": 0.991
+  }
+ },
+ "adjacent_overlap_cw_para_div_seg": {
+  "family": "overlap",
+  "question": "Consider how each paragraph relates to the paragraph right after it. How much do they repeat the same content words (the meaning-carrying words: nouns, main verbs, adjectives and adverbs)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.998,
+   "lower90": 0.996
+  },
+  "open": {
+   "rho": 0.998,
+   "lower90": 0.996
+  }
+ },
+ "adjacent_overlap_cw_sent": {
+  "family": "overlap",
+  "question": "Consider how each sentence relates to the sentence right after it. How much do they repeat the same content words (the meaning-carrying words: nouns, main verbs, adjectives and adverbs)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.982,
+   "lower90": 0.968
+  },
+  "open": {
+   "rho": 0.994,
+   "lower90": 0.989
+  }
+ },
+ "adjacent_overlap_cw_sent_div_seg": {
+  "family": "overlap",
+  "question": "Consider how each sentence relates to the sentence right after it. How much do they repeat the same content words (the meaning-carrying words: nouns, main verbs, adjectives and adverbs)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.986,
+   "lower90": 0.975
+  },
+  "open": {
+   "rho": 0.993,
+   "lower90": 0.986
+  }
+ },
+ "adjacent_overlap_fw_para": {
+  "family": "overlap",
+  "question": "Consider how each paragraph relates to the paragraph right after it. How much do they repeat the same function words (the small grammatical words such as the, of, and, to, it, was)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.995,
+   "lower90": 0.991
+  },
+  "open": {
+   "rho": 0.986,
+   "lower90": 0.976
+  }
+ },
+ "adjacent_overlap_fw_para_div_seg": {
+  "family": "overlap",
+  "question": "Consider how each paragraph relates to the paragraph right after it. How much do they repeat the same function words (the small grammatical words such as the, of, and, to, it, was)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.998,
+   "lower90": 0.995
+  },
+  "open": {
+   "rho": 0.999,
+   "lower90": 0.998
+  }
+ },
+ "adjacent_overlap_fw_sent": {
+  "family": "overlap",
+  "question": "Consider how each sentence relates to the sentence right after it. How much do they repeat the same function words (the small grammatical words such as the, of, and, to, it, was)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.994,
+   "lower90": 0.987
+  },
+  "open": {
+   "rho": 0.988,
+   "lower90": 0.976
+  }
+ },
+ "adjacent_overlap_fw_sent_div_seg": {
+  "family": "overlap",
+  "question": "Consider how each sentence relates to the sentence right after it. How much do they repeat the same function words (the small grammatical words such as the, of, and, to, it, was)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.993,
+   "lower90": 0.985
+  },
+  "open": {
+   "rho": 0.993,
+   "lower90": 0.983
+  }
+ },
+ "adjacent_overlap_noun_para": {
+  "family": "overlap",
+  "question": "Consider how each paragraph relates to the paragraph right after it. How much do they repeat the same nouns (nouns)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.995,
+   "lower90": 0.99
+  },
+  "open": {
+   "rho": 0.995,
+   "lower90": 0.99
+  }
+ },
+ "adjacent_overlap_noun_para_div_seg": {
+  "family": "overlap",
+  "question": "Consider how each paragraph relates to the paragraph right after it. How much do they repeat the same nouns (nouns)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.994,
+   "lower90": 0.986
+  },
+  "open": {
+   "rho": 0.996,
+   "lower90": 0.992
+  }
+ },
+ "adjacent_overlap_noun_sent": {
+  "family": "overlap",
+  "question": "Consider how each sentence relates to the sentence right after it. How much do they repeat the same nouns (nouns)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.98,
+   "lower90": 0.964
+  },
+  "open": {
+   "rho": 0.983,
+   "lower90": 0.966
+  }
+ },
+ "adjacent_overlap_noun_sent_div_seg": {
+  "family": "overlap",
+  "question": "Consider how each sentence relates to the sentence right after it. How much do they repeat the same nouns (nouns)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.981,
+   "lower90": 0.968
+  },
+  "open": {
+   "rho": 0.98,
+   "lower90": 0.958
+  }
+ },
+ "adjacent_overlap_pronoun_para": {
+  "family": "overlap",
+  "question": "Consider how each paragraph relates to the paragraph right after it. How much do they repeat the same pronouns (pronouns such as he, she, it, they, we)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.989,
+   "lower90": 0.98
+  },
+  "open": {
+   "rho": 0.991,
+   "lower90": 0.982
+  }
+ },
+ "adjacent_overlap_pronoun_para_div_seg": {
+  "family": "overlap",
+  "question": "Consider how each paragraph relates to the paragraph right after it. How much do they repeat the same pronouns (pronouns such as he, she, it, they, we)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.998,
+   "lower90": 0.995
+  },
+  "open": {
+   "rho": 0.999,
+   "lower90": 0.996
+  }
+ },
+ "adjacent_overlap_pronoun_sent": {
+  "family": "overlap",
+  "question": "Consider how each sentence relates to the sentence right after it. How much do they repeat the same pronouns (pronouns such as he, she, it, they, we)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.99,
+   "lower90": 0.981
+  },
+  "open": {
+   "rho": 0.992,
+   "lower90": 0.984
+  }
+ },
+ "adjacent_overlap_pronoun_sent_div_seg": {
+  "family": "overlap",
+  "question": "Consider how each sentence relates to the sentence right after it. How much do they repeat the same pronouns (pronouns such as he, she, it, they, we)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.995,
+   "lower90": 0.987
+  },
+  "open": {
+   "rho": 0.997,
+   "lower90": 0.994
+  }
+ },
+ "adjacent_overlap_verb_para": {
+  "family": "overlap",
+  "question": "Consider how each paragraph relates to the paragraph right after it. How much do they repeat the same verbs (verbs)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.964,
+   "lower90": 0.94
+  },
+  "open": {
+   "rho": 0.95,
+   "lower90": 0.907
+  }
+ },
+ "adjacent_overlap_verb_para_div_seg": {
+  "family": "overlap",
+  "question": "Consider how each paragraph relates to the paragraph right after it. How much do they repeat the same verbs (verbs)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.981,
+   "lower90": 0.969
+  },
+  "open": {
+   "rho": 0.97,
+   "lower90": 0.943
+  }
+ },
+ "adjacent_overlap_verb_sent": {
+  "family": "overlap",
+  "question": "Consider how each sentence relates to the sentence right after it. How much do they repeat the same verbs (verbs)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.938,
+   "lower90": 0.895
+  },
+  "open": {
+   "rho": 0.98,
+   "lower90": 0.966
+  }
+ },
+ "adjacent_overlap_verb_sent_div_seg": {
+  "family": "overlap",
+  "question": "Consider how each sentence relates to the sentence right after it. How much do they repeat the same verbs (verbs)? Count a word as repeated if the same word or another form of it (walk / walked) appears in both.",
+  "valid": true,
+  "private": {
+   "rho": 0.945,
+   "lower90": 0.904
+  },
+  "open": {
+   "rho": 0.982,
+   "lower90": 0.969
+  }
+ },
+ "adv_ratio": {
+  "family": "pos",
+  "question": "What share of the content words are adverbs?",
+  "valid": true,
+  "private": {
+   "rho": 0.964,
+   "lower90": 0.937
+  },
+  "open": {
+   "rho": 0.96,
+   "lower90": 0.927
+  }
+ },
+ "adv_ttr": {
+  "family": "ttr",
+  "question": "How varied is the text's vocabulary of its adverbs? Does it keep reusing the same ones, or does almost every one appear only once?",
+  "valid": true,
+  "private": {
+   "rho": 0.965,
+   "lower90": 0.947
+  },
+  "open": {
+   "rho": 0.961,
+   "lower90": 0.936
+  }
+ },
+ "all_additive": {
+  "family": "connective",
+  "question": "How densely does the text use words that add or extend, such as and, also, as well?",
+  "valid": true,
+  "private": {
+   "rho": 0.955,
+   "lower90": 0.933
+  },
+  "open": {
+   "rho": 0.952,
+   "lower90": 0.925
+  }
+ },
+ "all_causal": {
+  "family": "connective",
+  "question": "How densely does the text use words expressing cause and effect, positive or negative?",
+  "valid": true,
+  "private": {
+   "rho": 0.874,
+   "lower90": 0.824
+  },
+  "open": {
+   "rho": 0.835,
+   "lower90": 0.763
+  }
+ },
+ "all_connective": {
+  "family": "connective",
+  "question": "How densely does the text use connecting words and phrases of every kind?",
+  "valid": true,
+  "private": {
+   "rho": 0.941,
+   "lower90": 0.913
+  },
+  "open": {
+   "rho": 0.952,
+   "lower90": 0.925
+  }
+ },
+ "all_demonstratives": {
+  "family": "connective",
+  "question": "How densely does the text use demonstratives: this, that, these, those?",
+  "valid": true,
+  "private": {
+   "rho": 1.0,
+   "lower90": 0.999
+  },
+  "open": {
+   "rho": 1.0,
+   "lower90": 0.999
+  }
+ },
+ "all_logical": {
+  "family": "connective",
+  "question": "How densely does the text use logical connectives of any kind: and, or, but, if, so?",
+  "valid": true,
+  "private": {
+   "rho": 0.887,
+   "lower90": 0.827
+  },
+  "open": {
+   "rho": 0.913,
+   "lower90": 0.865
+  }
+ },
+ "all_negative": {
+  "family": "connective",
+  "question": "How densely does the text use connectives that contrast with or deny what came before?",
+  "valid": true,
+  "private": {
+   "rho": 0.888,
+   "lower90": 0.842
+  },
+  "open": {
+   "rho": 0.926,
+   "lower90": 0.887
+  }
+ },
+ "all_positive": {
+  "family": "connective",
+  "question": "How densely does the text use connectives that extend or build on what came before?",
+  "valid": true,
+  "private": {
+   "rho": 0.887,
+   "lower90": 0.831
+  },
+  "open": {
+   "rho": 0.88,
+   "lower90": 0.836
+  }
+ },
+ "all_temporal": {
+  "family": "connective",
+  "question": "How densely does the text use words placing events in time, such as when, then, after, before, meanwhile?",
+  "valid": false,
+  "private": {
+   "rho": 0.862,
+   "lower90": 0.801
+  },
+  "open": {
+   "rho": 0.759,
+   "lower90": 0.669
+  }
+ },
+ "argument_ttr": {
+  "family": "ttr",
+  "question": "How varied is the text's vocabulary of its nouns and pronouns? Does it keep reusing the same ones, or does almost every one appear only once?",
+  "valid": true,
+  "private": {
+   "rho": 0.996,
+   "lower90": 0.993
+  },
+  "open": {
+   "rho": 0.998,
+   "lower90": 0.995
+  }
+ },
+ "attended_demonstratives": {
+  "family": "connective",
+  "question": "How densely does the text use demonstratives followed by a noun, as in 'this idea'?",
+  "valid": true,
+  "private": {
+   "rho": 0.983,
+   "lower90": 0.972
+  },
+  "open": {
+   "rho": 0.972,
+   "lower90": 0.95
+  }
+ },
+ "automated_readability_index": {
+  "family": "readability",
+  "question": "How demanding is the text, judged by word and sentence length?",
+  "valid": true,
+  "private": {
+   "rho": 1.0,
+   "lower90": 1.0
+  },
+  "open": {
+   "rho": 1.0,
+   "lower90": 1.0
+  }
+ },
+ "basic_connectives": {
+  "family": "connective",
+  "question": "How densely does the text use basic connecting words such as and, but, so, because, then?",
+  "valid": true,
+  "private": {
+   "rho": 1.0,
+   "lower90": 0.999
+  },
+  "open": {
+   "rho": 1.0,
+   "lower90": 0.999
+  }
+ },
+ "bigram_lemma_ttr": {
+  "family": "ttr",
+  "question": "How varied is the text's vocabulary of its two-word sequences? Does it keep reusing the same ones, or does almost every one appear only once?",
+  "valid": true,
+  "private": {
+   "rho": 0.994,
+   "lower90": 0.983
+  },
+  "open": {
+   "rho": 0.999,
+   "lower90": 0.997
+  }
+ },
+ "conjunctions": {
+  "family": "connective",
+  "question": "How densely does the text use conjunctions joining clauses, such as and, but, or, yet?",
+  "valid": true,
+  "private": {
+   "rho": 1.0,
+   "lower90": 0.998
+  },
+  "open": {
+   "rho": 1.0,
+   "lower90": 0.999
+  }
+ },
+ "content_ttr": {
+  "family": "ttr",
+  "question": "How varied is the text's vocabulary of its content words - nouns, main verbs, adjectives, adverbs? Does it keep reusing the same ones, or does almost every one appear only once?",
+  "valid": true,
+  "private": {
+   "rho": 0.997,
+   "lower90": 0.993
+  },
+  "open": {
+   "rho": 0.998,
+   "lower90": 0.996
+  }
+ },
+ "coordinating_conjuncts": {
+  "family": "connective",
+  "question": "How densely does the text use linking adverbs such as however, therefore, moreover, meanwhile?",
+  "valid": true,
+  "private": {
+   "rho": 1.0,
+   "lower90": 0.999
+  },
+  "open": {
+   "rho": 1.0,
+   "lower90": 1.0
+  }
+ },
+ "deep_cohesion": {
+  "family": "easability",
+  "question": "How explicitly does the text spell out causal and logical connections between ideas - because, so, therefore, in order to?",
+  "valid": false,
+  "private": {
+   "rho": 0.805,
+   "lower90": 0.74
+  },
+  "open": {
+   "rho": 0.798,
+   "lower90": 0.719
+  }
+ },
+ "dep_distance_mean": {
+  "family": "syntax",
+  "question": "How far apart are grammatically linked words, on average - does a sentence keep related words close together, or separate them with long insertions?",
+  "valid": true,
+  "private": {
+   "rho": 0.854,
+   "lower90": 0.788
+  },
+  "open": {
+   "rho": 0.948,
+   "lower90": 0.914
+  }
+ },
+ "dep_distance_std": {
+  "family": "syntax",
+  "question": "How much does that distance between linked words vary across the text?",
+  "valid": true,
+  "private": {
+   "rho": 0.806,
+   "lower90": 0.722
+  },
+  "open": {
+   "rho": 0.902,
+   "lower90": 0.854
+  }
+ },
+ "determiners": {
+  "family": "connective",
+  "question": "How densely does the text use determiners such as the, a, this, those, every?",
+  "valid": true,
+  "private": {
+   "rho": 1.0,
+   "lower90": 0.999
+  },
+  "open": {
+   "rho": 1.0,
+   "lower90": 0.999
+  }
+ },
+ "disjunctions": {
+  "family": "connective",
+  "question": "How densely does the text use words presenting alternatives, such as or, either, otherwise?",
+  "valid": true,
+  "private": {
+   "rho": 1.0,
+   "lower90": 0.999
+  },
+  "open": {
+   "rho": 1.0,
+   "lower90": 0.999
+  }
+ },
+ "flesch_kincaid_grade": {
+  "family": "readability",
+  "question": "What school grade level does the text read at?",
+  "valid": true,
+  "private": {
+   "rho": 1.0,
+   "lower90": 1.0
+  },
+  "open": {
+   "rho": 1.0,
+   "lower90": 1.0
+  }
+ },
+ "flesch_reading_ease": {
+  "family": "readability",
+  "question": "How easy is the text to read?",
+  "valid": true,
+  "private": {
+   "rho": 1.0,
+   "lower90": 1.0
+  },
+  "open": {
+   "rho": 1.0,
+   "lower90": 1.0
+  }
+ },
+ "function_mattr": {
+  "family": "ttr",
+  "question": "How varied is the text's vocabulary of its small grammatical words, measured over short moving windows? Does it keep reusing the same ones, or does almost every one appear only once?",
+  "valid": true,
+  "private": {
+   "rho": 0.982,
+   "lower90": 0.97
+  },
+  "open": {
+   "rho": 0.972,
+   "lower90": 0.954
+  }
+ },
+ "function_ttr": {
+  "family": "ttr",
+  "question": "How varied is the text's vocabulary of its small grammatical words? Does it keep reusing the same ones, or does almost every one appear only once?",
+  "valid": true,
+  "private": {
+   "rho": 0.97,
+   "lower90": 0.95
+  },
+  "open": {
+   "rho": 0.972,
+   "lower90": 0.956
+  }
+ },
+ "lda_1_all_para": {
+  "family": "semantic",
+  "question": "How close in meaning is each paragraph to the paragraph right after it - are they about the same thing, even where they use different words?",
+  "valid": true,
+  "private": {
+   "rho": 0.848,
+   "lower90": 0.769
+  },
+  "open": {
+   "rho": 0.866,
+   "lower90": 0.794
+  }
+ },
+ "lda_1_all_sent": {
+  "family": "semantic",
+  "question": "How close in meaning is each sentence to the sentence right after it - are they about the same thing, even where they use different words?",
+  "valid": false,
+  "private": {
+   "rho": 0.819,
+   "lower90": 0.76
+  },
+  "open": {
+   "rho": 0.749,
+   "lower90": 0.656
+  }
+ },
+ "lda_2_all_para": {
+  "family": "semantic",
+  "question": "How close in meaning is each paragraph to the next two paragraphs - are they about the same thing, even where they use different words?",
+  "valid": true,
+  "private": {
+   "rho": 0.841,
+   "lower90": 0.759
+  },
+  "open": {
+   "rho": 0.872,
+   "lower90": 0.809
+  }
+ },
+ "lda_2_all_sent": {
+  "family": "semantic",
+  "question": "How close in meaning is each sentence to the next two sentences - are they about the same thing, even where they use different words?",
+  "valid": false,
+  "private": {
+   "rho": 0.797,
+   "lower90": 0.728
+  },
+  "open": {
+   "rho": 0.732,
+   "lower90": 0.634
+  }
+ },
+ "lemma_mattr": {
+  "family": "ttr",
+  "question": "How varied is the text's vocabulary of all its words, measured over short moving windows? Does it keep reusing the same ones, or does almost every one appear only once?",
+  "valid": true,
+  "private": {
+   "rho": 0.994,
+   "lower90": 0.984
+  },
+  "open": {
+   "rho": 0.999,
+   "lower90": 0.996
+  }
+ },
+ "lemma_ttr": {
+  "family": "ttr",
+  "question": "How varied is the text's vocabulary of all its words, counting walk and walked as one? Does it keep reusing the same ones, or does almost every one appear only once?",
+  "valid": true,
+  "private": {
+   "rho": 0.996,
+   "lower90": 0.987
+  },
+  "open": {
+   "rho": 0.999,
+   "lower90": 0.997
+  }
+ },
+ "lexical_density_tokens": {
+  "family": "density",
+  "question": "What share of the running words are content words (nouns, main verbs, adjectives, adverbs) rather than small grammatical words?",
+  "valid": true,
+  "private": {
+   "rho": 0.991,
+   "lower90": 0.983
+  },
+  "open": {
+   "rho": 0.993,
+   "lower90": 0.986
+  }
+ },
+ "lexical_density_types": {
+  "family": "density",
+  "question": "Among the distinct words the text uses, what share are content words rather than grammatical words?",
+  "valid": true,
+  "private": {
+   "rho": 0.949,
+   "lower90": 0.912
+  },
+  "open": {
+   "rho": 0.916,
+   "lower90": 0.871
+  }
+ },
+ "lexical_subordinators": {
+  "family": "connective",
+  "question": "How densely does the text use subordinating words such as although, because, while, unless, whereas?",
+  "valid": true,
+  "private": {
+   "rho": 0.924,
+   "lower90": 0.886
+  },
+  "open": {
+   "rho": 0.94,
+   "lower90": 0.91
+  }
+ },
+ "lsa_1_all_para": {
+  "family": "semantic",
+  "question": "How close in meaning is each paragraph to the paragraph right after it - are they about the same thing, even where they use different words?",
+  "valid": true,
+  "private": {
+   "rho": 0.841,
+   "lower90": 0.771
+  },
+  "open": {
+   "rho": 0.955,
+   "lower90": 0.933
+  }
+ },
+ "lsa_1_all_sent": {
+  "family": "semantic",
+  "question": "How close in meaning is each sentence to the sentence right after it - are they about the same thing, even where they use different words?",
+  "valid": true,
+  "private": {
+   "rho": 0.886,
+   "lower90": 0.844
+  },
+  "open": {
+   "rho": 0.825,
+   "lower90": 0.737
+  }
+ },
+ "lsa_2_all_para": {
+  "family": "semantic",
+  "question": "How close in meaning is each paragraph to the next two paragraphs - are they about the same thing, even where they use different words?",
+  "valid": true,
+  "private": {
+   "rho": 0.869,
+   "lower90": 0.811
+  },
+  "open": {
+   "rho": 0.939,
+   "lower90": 0.905
+  }
+ },
+ "lsa_2_all_sent": {
+  "family": "semantic",
+  "question": "How close in meaning is each sentence to the next two sentences - are they about the same thing, even where they use different words?",
+  "valid": true,
+  "private": {
+   "rho": 0.872,
+   "lower90": 0.818
+  },
+  "open": {
+   "rho": 0.826,
+   "lower90": 0.755
+  }
+ },
+ "mtld_score": {
+  "family": "lexical",
+  "question": "How wide is the vocabulary, sustained across the whole text?",
+  "valid": true,
+  "private": {
+   "rho": 1.0,
+   "lower90": 1.0
+  },
+  "open": {
+   "rho": 1.0,
+   "lower90": 1.0
+  }
+ },
+ "n_paragraphs": {
+  "family": "count",
+  "question": "How many paragraphs does the text have?",
+  "valid": true,
+  "private": {
+   "rho": 1.0,
+   "lower90": 1.0
+  },
+  "open": {
+   "rho": 1.0,
+   "lower90": 1.0
+  }
+ },
+ "n_sentences": {
+  "family": "count",
+  "question": "How many sentences does the text have?",
+  "valid": true,
+  "private": {
+   "rho": 0.992,
+   "lower90": 0.986
+  },
+  "open": {
+   "rho": 0.992,
+   "lower90": 0.984
+  }
+ },
+ "n_tokens": {
+  "family": "count",
+  "question": "How long is the text?",
+  "valid": true,
+  "private": {
+   "rho": 1.0,
+   "lower90": 1.0
+  },
+  "open": {
+   "rho": 1.0,
+   "lower90": 1.0
+  }
+ },
+ "n_types": {
+  "family": "count",
+  "question": "How many different distinct words does the text use in total?",
+  "valid": true,
+  "private": {
+   "rho": 1.0,
+   "lower90": 1.0
+  },
+  "open": {
+   "rho": 1.0,
+   "lower90": 1.0
+  }
+ },
+ "narrativity": {
+  "family": "easability",
+  "question": "How story-like is the text - people or agents doing things, events unfolding in time, everyday words - as opposed to expository or informational writing?",
+  "valid": true,
+  "private": {
+   "rho": 0.919,
+   "lower90": 0.881
+  },
+  "open": {
+   "rho": 0.887,
+   "lower90": 0.843
+  }
+ },
+ "negative_logical": {
+  "family": "connective",
+  "question": "How densely does the text use connectives that qualify or reverse: but, however, although, yet?",
+  "valid": true,
+  "private": {
+   "rho": 0.853,
+   "lower90": 0.795
+  },
+  "open": {
+   "rho": 0.848,
+   "lower90": 0.79
+  }
+ },
+ "noun_ratio": {
+  "family": "pos",
+  "question": "What share of the content words are nouns?",
+  "valid": true,
+  "private": {
+   "rho": 0.954,
+   "lower90": 0.919
+  },
+  "open": {
+   "rho": 0.979,
+   "lower90": 0.965
+  }
+ },
+ "noun_ttr": {
+  "family": "ttr",
+  "question": "How varied is the text's vocabulary of its nouns? Does it keep reusing the same ones, or does almost every one appear only once?",
+  "valid": true,
+  "private": {
+   "rho": 0.993,
+   "lower90": 0.986
+  },
+  "open": {
+   "rho": 0.998,
+   "lower90": 0.995
+  }
+ },
+ "opposition": {
+  "family": "connective",
+  "question": "How densely does the text use words setting things against each other, such as but, however, although, whereas?",
+  "valid": true,
+  "private": {
+   "rho": 0.817,
+   "lower90": 0.743
+  },
+  "open": {
+   "rho": 0.847,
+   "lower90": 0.793
+  }
+ },
+ "order": {
+  "family": "connective",
+  "question": "How densely does the text use sequencing words such as first, next, then, finally, to begin?",
+  "valid": true,
+  "private": {
+   "rho": 0.928,
+   "lower90": 0.889
+  },
+  "open": {
+   "rho": 0.943,
+   "lower90": 0.914
+  }
+ },
+ "overall_quality": {
+  "family": "quality",
+  "question": "How well written is this text overall?",
+  "valid": false,
+  "private": {
+   "rho": 0.844,
+   "lower90": 0.789
+  },
+  "open": {
+   "rho": 0.776,
+   "lower90": 0.694
+  }
+ },
+ "paragraph_cohesion_mean": {
+  "family": "semantic",
+  "question": "How closely does each paragraph follow on in meaning from the one before?",
+  "valid": true,
+  "private": {
+   "rho": 0.905,
+   "lower90": 0.868
+  },
+  "open": {
+   "rho": 0.957,
+   "lower90": 0.937
+  }
+ },
+ "paragraph_cohesion_std": {
+  "family": "semantic",
+  "question": "How much does that closeness between neighbouring paragraphs vary?",
+  "valid": true,
+  "private": {
+   "rho": 0.83,
+   "lower90": 0.762
+  },
+  "open": {
+   "rho": 0.859,
+   "lower90": 0.813
+  }
+ },
+ "positive_causal": {
+  "family": "connective",
+  "question": "How densely does the text use words linking a cause to its effect, such as because, so, therefore, as a result?",
+  "valid": false,
+  "private": {
+   "rho": 0.707,
+   "lower90": 0.621
+  },
+  "open": {
+   "rho": 0.662,
+   "lower90": 0.543
+  }
+ },
+ "positive_intentional": {
+  "family": "connective",
+  "question": "How densely does the text use words expressing purpose or intention, such as in order to, so that, to?",
+  "valid": false,
+  "private": {
+   "rho": 0.538,
+   "lower90": 0.41
+  },
+  "open": {
+   "rho": 0.584,
+   "lower90": 0.452
+  }
+ },
+ "positive_logical": {
+  "family": "connective",
+  "question": "How densely does the text use connectives that extend an argument: and, also, so, then?",
+  "valid": false,
+  "private": {
+   "rho": 0.74,
+   "lower90": 0.654
+  },
+  "open": {
+   "rho": 0.764,
+   "lower90": 0.672
+  }
+ },
+ "pronoun_density": {
+  "family": "givenness",
+  "question": "How much does the text refer back to things with pronouns (he, it, they) and stand-alone this/that, instead of naming them again?",
+  "valid": true,
+  "private": {
+   "rho": 0.998,
+   "lower90": 0.996
+  },
+  "open": {
+   "rho": 0.998,
+   "lower90": 0.996
+  }
+ },
+ "pronoun_noun_ratio": {
+  "family": "givenness",
+  "question": "Compared with how many nouns it uses, how many pronouns does the text use?",
+  "valid": true,
+  "private": {
+   "rho": 0.997,
+   "lower90": 0.994
+  },
+  "open": {
+   "rho": 0.997,
+   "lower90": 0.994
+  }
+ },
+ "prp_ttr": {
+  "family": "ttr",
+  "question": "How varied is the text's vocabulary of its pronouns? Does it keep reusing the same ones, or does almost every one appear only once?",
+  "valid": true,
+  "private": {
+   "rho": 0.983,
+   "lower90": 0.971
+  },
+  "open": {
+   "rho": 0.988,
+   "lower90": 0.978
+  }
+ },
+ "reason_and_purpose": {
+  "family": "connective",
+  "question": "How densely does the text use words giving a reason or purpose, such as because, so that, in order to?",
+  "valid": true,
+  "private": {
+   "rho": 0.955,
+   "lower90": 0.933
+  },
+  "open": {
+   "rho": 0.926,
+   "lower90": 0.889
+  }
+ },
+ "referential_cohesion": {
+  "family": "easability",
+  "question": "How much do the sentences keep referring to the same people, things and ideas, so the reader can track what is being talked about?",
+  "valid": true,
+  "private": {
+   "rho": 0.84,
+   "lower90": 0.774
+  },
+  "open": {
+   "rho": 0.824,
+   "lower90": 0.755
+  }
+ },
+ "repeated_content_and_pronoun_lemmas": {
+  "family": "givenness",
+  "question": "Counting both content words and pronouns, how much does the text return to what it has already mentioned?",
+  "valid": true,
+  "private": {
+   "rho": 0.996,
+   "lower90": 0.992
+  },
+  "open": {
+   "rho": 0.996,
+   "lower90": 0.992
+  }
+ },
+ "repeated_content_lemmas": {
+  "family": "givenness",
+  "question": "How much of the text's content vocabulary is repeated - words that come back after they are first used, rather than appearing once?",
+  "valid": true,
+  "private": {
+   "rho": 0.993,
+   "lower90": 0.985
+  },
+  "open": {
+   "rho": 0.997,
+   "lower90": 0.994
+  }
+ },
+ "semantic_cohesion_max": {
+  "family": "semantic",
+  "question": "How close in meaning are the most closely linked pair of neighbouring sentences?",
+  "valid": false,
+  "private": {
+   "rho": 0.653,
+   "lower90": 0.544
+  },
+  "open": {
+   "rho": 0.712,
+   "lower90": 0.594
+  }
+ },
+ "semantic_cohesion_mean": {
+  "family": "semantic",
+  "question": "How closely does each sentence follow on in meaning from the one before?",
+  "valid": true,
+  "private": {
+   "rho": 0.933,
+   "lower90": 0.89
+  },
+  "open": {
+   "rho": 0.921,
+   "lower90": 0.868
+  }
+ },
+ "semantic_cohesion_min": {
+  "family": "semantic",
+  "question": "What is the sharpest jump in meaning anywhere between two neighbouring sentences?",
+  "valid": false,
+  "private": {
+   "rho": 0.449,
+   "lower90": 0.287
+  },
+  "open": {
+   "rho": 0.575,
+   "lower90": 0.438
+  }
+ },
+ "semantic_cohesion_std": {
+  "family": "semantic",
+  "question": "How much does that closeness between neighbouring sentences vary?",
+  "valid": false,
+  "private": {
+   "rho": 0.772,
+   "lower90": 0.68
+  },
+  "open": {
+   "rho": 0.781,
+   "lower90": 0.699
+  }
+ },
+ "sent_len_cv": {
+  "family": "length",
+  "question": "Relative to their typical length, how uneven are the sentence lengths?",
+  "valid": true,
+  "private": {
+   "rho": 0.973,
+   "lower90": 0.956
+  },
+  "open": {
+   "rho": 0.974,
+   "lower90": 0.955
+  }
+ },
+ "sent_len_mean": {
+  "family": "length",
+  "question": "How long are the sentences on average?",
+  "valid": true,
+  "private": {
+   "rho": 0.988,
+   "lower90": 0.977
+  },
+  "open": {
+   "rho": 0.989,
+   "lower90": 0.977
+  }
+ },
+ "sent_len_std": {
+  "family": "length",
+  "question": "How much does sentence length vary from one sentence to the next?",
+  "valid": true,
+  "private": {
+   "rho": 0.969,
+   "lower90": 0.939
+  },
+  "open": {
+   "rho": 0.995,
+   "lower90": 0.987
+  }
+ },
+ "sentence_linking": {
+  "family": "connective",
+  "question": "How densely does the text use sentence-opening links such as however, nevertheless, so, then?",
+  "valid": true,
+  "private": {
+   "rho": 0.91,
+   "lower90": 0.877
+  },
+  "open": {
+   "rho": 0.907,
+   "lower90": 0.87
+  }
+ },
+ "syn_overlap_para_noun": {
+  "family": "synonym",
+  "question": "How often does a paragraph use a synonym of one of the nouns in the paragraph before it - a different word with the same meaning, rather than the same word again?",
+  "valid": true,
+  "private": {
+   "rho": 0.995,
+   "lower90": 0.988
+  },
+  "open": {
+   "rho": 0.998,
+   "lower90": 0.995
+  }
+ },
+ "syn_overlap_para_verb": {
+  "family": "synonym",
+  "question": "How often does a paragraph use a synonym of one of the verbs in the paragraph before it - a different word with the same meaning, rather than the same word again?",
+  "valid": true,
+  "private": {
+   "rho": 0.991,
+   "lower90": 0.982
+  },
+  "open": {
+   "rho": 0.995,
+   "lower90": 0.989
+  }
+ },
+ "syn_overlap_sent_noun": {
+  "family": "synonym",
+  "question": "How often does a sentence use a synonym of one of the nouns in the sentence before it - a different word with the same meaning, rather than the same word again?",
+  "valid": true,
+  "private": {
+   "rho": 0.976,
+   "lower90": 0.955
+  },
+  "open": {
+   "rho": 0.979,
+   "lower90": 0.948
+  }
+ },
+ "syn_overlap_sent_verb": {
+  "family": "synonym",
+  "question": "How often does a sentence use a synonym of one of the verbs in the sentence before it - a different word with the same meaning, rather than the same word again?",
+  "valid": true,
+  "private": {
+   "rho": 0.974,
+   "lower90": 0.951
+  },
+  "open": {
+   "rho": 0.987,
+   "lower90": 0.974
+  }
+ },
+ "syntactic_simplicity": {
+  "family": "easability",
+  "question": "How simple is the sentence structure - few words before the main verb, short clauses, familiar patterns?",
+  "valid": true,
+  "private": {
+   "rho": 0.954,
+   "lower90": 0.93
+  },
+  "open": {
+   "rho": 0.951,
+   "lower90": 0.924
+  }
+ },
+ "text_length": {
+  "family": "count",
+  "question": "How long is the text in characters?",
+  "valid": true,
+  "private": {
+   "rho": 1.0,
+   "lower90": 1.0
+  },
+  "open": {
+   "rho": 1.0,
+   "lower90": 1.0
+  }
+ },
+ "trigram_lemma_ttr": {
+  "family": "ttr",
+  "question": "How varied is the text's vocabulary of its three-word sequences? Does it keep reusing the same ones, or does almost every one appear only once?",
+  "valid": true,
+  "private": {
+   "rho": 0.993,
+   "lower90": 0.982
+  },
+  "open": {
+   "rho": 0.998,
+   "lower90": 0.996
+  }
+ },
+ "type_token_ratio": {
+  "family": "lexical",
+  "question": "How varied is the vocabulary - how often are words repeated?",
+  "valid": true,
+  "private": {
+   "rho": 1.0,
+   "lower90": 1.0
+  },
+  "open": {
+   "rho": 1.0,
+   "lower90": 0.999
+  }
+ },
+ "unattended_demonstratives": {
+  "family": "connective",
+  "question": "How densely does the text use demonstratives standing alone, as in 'this is wrong'?",
+  "valid": true,
+  "private": {
+   "rho": 0.945,
+   "lower90": 0.912
+  },
+  "open": {
+   "rho": 0.95,
+   "lower90": 0.921
+  }
+ },
+ "verb_ratio": {
+  "family": "pos",
+  "question": "What share of the content words are verbs?",
+  "valid": true,
+  "private": {
+   "rho": 0.985,
+   "lower90": 0.975
+  },
+  "open": {
+   "rho": 0.983,
+   "lower90": 0.97
+  }
+ },
+ "verb_ttr": {
+  "family": "ttr",
+  "question": "How varied is the text's vocabulary of its verbs? Does it keep reusing the same ones, or does almost every one appear only once?",
+  "valid": true,
+  "private": {
+   "rho": 0.986,
+   "lower90": 0.975
+  },
+  "open": {
+   "rho": 0.984,
+   "lower90": 0.972
+  }
+ },
+ "word2vec_1_all_para": {
+  "family": "semantic",
+  "question": "How close in meaning is each paragraph to the paragraph right after it - are they about the same thing, even where they use different words?",
+  "valid": true,
+  "private": {
+   "rho": 0.845,
+   "lower90": 0.787
+  },
+  "open": {
+   "rho": 0.905,
+   "lower90": 0.869
+  }
+ },
+ "word2vec_1_all_sent": {
+  "family": "semantic",
+  "question": "How close in meaning is each sentence to the sentence right after it - are they about the same thing, even where they use different words?",
+  "valid": true,
+  "private": {
+   "rho": 0.847,
+   "lower90": 0.778
+  },
+  "open": {
+   "rho": 0.845,
+   "lower90": 0.78
+  }
+ },
+ "word2vec_2_all_para": {
+  "family": "semantic",
+  "question": "How close in meaning is each paragraph to the next two paragraphs - are they about the same thing, even where they use different words?",
+  "valid": true,
+  "private": {
+   "rho": 0.826,
+   "lower90": 0.765
+  },
+  "open": {
+   "rho": 0.893,
+   "lower90": 0.851
+  }
+ },
+ "word2vec_2_all_sent": {
+  "family": "semantic",
+  "question": "How close in meaning is each sentence to the next two sentences - are they about the same thing, even where they use different words?",
+  "valid": true,
+  "private": {
+   "rho": 0.86,
+   "lower90": 0.793
+  },
+  "open": {
+   "rho": 0.844,
+   "lower90": 0.769
+  }
+ },
+ "word_concreteness": {
+  "family": "easability",
+  "question": "How concrete is the vocabulary - words for things you can see, touch and picture - as opposed to abstract ideas?",
+  "valid": true,
+  "private": {
+   "rho": 0.917,
+   "lower90": 0.881
+  },
+  "open": {
+   "rho": 0.908,
+   "lower90": 0.872
+  }
+ },
+ "word_count": {
+  "family": "count",
+  "question": "How many words long is the text?",
+  "valid": true,
+  "private": {
+   "rho": 1.0,
+   "lower90": 1.0
+  },
+  "open": {
+   "rho": 1.0,
+   "lower90": 1.0
+  }
+ },
+ "zipf_mean": {
+  "family": "frequency",
+  "question": "How common and everyday are the words used?",
+  "valid": true,
+  "private": {
+   "rho": 0.922,
+   "lower90": 0.886
+  },
+  "open": {
+   "rho": 0.965,
+   "lower90": 0.947
+  }
+ },
+ "zipf_std": {
+  "family": "frequency",
+  "question": "How much does the text mix very common words with rare ones?",
+  "valid": true,
+  "private": {
+   "rho": 0.844,
+   "lower90": 0.772
+  },
+  "open": {
+   "rho": 0.921,
+   "lower90": 0.877
+  }
+ },
+ "referential_cohesion_construct": {
+  "family": "construct",
+  "question": "How much does each sentence repeat nouns, arguments and content words from the one before?",
+  "valid": false,
+  "note": "defined by the published formula (Graesser, McNamara & Kulikowich 2011) over validated indices; no external reference"
+ },
+ "deep_cohesion_construct": {
+  "family": "construct",
+  "question": "How densely does the text use causal and logical connectives - because, so, therefore, if?",
+  "valid": false,
+  "note": "defined by the published formula (Graesser, McNamara & Kulikowich 2011) over validated indices; no external reference"
+ }
+}

@@ -1,0 +1,171 @@
+{
+  "note": "Derived from the manifest. Percentiles describe how writers with craft credibility actually vary; p10/p90 are the useful edges. These describe a range, they are not targets - editing prose toward a median produces the evenness stylometry.py exists to find.",
+  "sources_measured": 10,
+  "failures": [
+    {
+      "url": "https://www.honest-broker.com/p/why-did-the-beatles-get-so-much-better",
+      "author": "Ted Gioia",
+      "status": "failed: HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.ftrain.com/wwic",
+      "author": "Paul Ford",
+      "status": "failed: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    }
+  ],
+  "per_source": [
+    {
+      "author": "Paul Graham",
+      "genre": "essay/technical",
+      "url": "https://paulgraham.com/writes.html",
+      "words": 544,
+      "sent_len_mean": 13.6,
+      "sent_len_cv": 0.531,
+      "mtld": 62.7,
+      "repeated_opening_rate": 0.075,
+      "longest_flat_run": 2
+    },
+    {
+      "author": "Paul Graham",
+      "genre": "essay/technical",
+      "url": "https://paulgraham.com/useful.html",
+      "words": 2817,
+      "sent_len_mean": 13.9,
+      "sent_len_cv": 0.516,
+      "mtld": 91.6,
+      "repeated_opening_rate": 0.167,
+      "longest_flat_run": 4
+    },
+    {
+      "author": "Craig Mod",
+      "genre": "essay/place",
+      "url": "https://craigmod.com/essays/fast_software/",
+      "words": 2981,
+      "sent_len_mean": 12.3,
+      "sent_len_cv": 0.758,
+      "mtld": 78.8,
+      "repeated_opening_rate": 0.185,
+      "longest_flat_run": 4
+    },
+    {
+      "author": "Patrick McKenzie",
+      "genre": "business/explanatory",
+      "url": "https://www.bitsaboutmoney.com/archive/the-infrastructure-behind-atms/",
+      "words": 2690,
+      "sent_len_mean": 20.8,
+      "sent_len_cv": 0.666,
+      "mtld": 98.3,
+      "repeated_opening_rate": 0.116,
+      "longest_flat_run": 2
+    },
+    {
+      "author": "Dan Wang",
+      "genre": "essay/annual letter",
+      "url": "https://danwang.co/2023-letter/",
+      "words": 10856,
+      "sent_len_mean": 19.7,
+      "sent_len_cv": 0.641,
+      "mtld": 128.5,
+      "repeated_opening_rate": 0.156,
+      "longest_flat_run": 4
+    },
+    {
+      "author": "Maggie Appleton",
+      "genre": "essay/technical",
+      "url": "https://maggieappleton.com/ambient-copresence",
+      "words": 1795,
+      "sent_len_mean": 18.1,
+      "sent_len_cv": 0.591,
+      "mtld": 146.2,
+      "repeated_opening_rate": 0.101,
+      "longest_flat_run": 3
+    },
+    {
+      "author": "Robin Sloan",
+      "genre": "newsletter/essay",
+      "url": "https://www.robinsloan.com/lab/new-avenues/",
+      "words": 2340,
+      "sent_len_mean": 19.0,
+      "sent_len_cv": 0.669,
+      "mtld": 74.3,
+      "repeated_opening_rate": 0.179,
+      "longest_flat_run": 4
+    },
+    {
+      "author": "Nadia Asparouhova",
+      "genre": "essay/social",
+      "url": "https://nadia.xyz/idea-machines",
+      "words": 3941,
+      "sent_len_mean": 25.9,
+      "sent_len_cv": 0.542,
+      "mtld": 126.3,
+      "repeated_opening_rate": 0.151,
+      "longest_flat_run": 3
+    },
+    {
+      "author": "Simon Willison",
+      "genre": "technical/reporting",
+      "url": "https://simonwillison.net/2024/Dec/31/llms-in-2024/",
+      "words": 7011,
+      "sent_len_mean": 22.8,
+      "sent_len_cv": 1.51,
+      "mtld": 123.1,
+      "repeated_opening_rate": 0.172,
+      "longest_flat_run": 3
+    },
+    {
+      "author": "Gwern Branwen",
+      "genre": "long-form/research",
+      "url": "https://gwern.net/scaling-hypothesis",
+      "words": 17362,
+      "sent_len_mean": 29.0,
+      "sent_len_cv": 0.828,
+      "mtld": 126.1,
+      "repeated_opening_rate": 0.187,
+      "longest_flat_run": 5
+    }
+  ],
+  "ranges": {
+    "sent_len_mean": {
+      "n": 10,
+      "min": 12.3,
+      "max": 29.0,
+      "median": 19.35,
+      "p10": 13.6,
+      "p90": 29.0
+    },
+    "sent_len_cv": {
+      "n": 10,
+      "min": 0.516,
+      "max": 1.51,
+      "median": 0.653,
+      "p10": 0.531,
+      "p90": 1.51
+    },
+    "para_len_cv": null,
+    "mtld": {
+      "n": 10,
+      "min": 62.7,
+      "max": 146.2,
+      "median": 110.7,
+      "p10": 74.3,
+      "p90": 146.2
+    },
+    "repeated_opening_rate": {
+      "n": 10,
+      "min": 0.075,
+      "max": 0.187,
+      "median": 0.162,
+      "p10": 0.101,
+      "p90": 0.187
+    },
+    "longest_flat_run": {
+      "n": 10,
+      "min": 2,
+      "max": 5,
+      "median": 3.5,
+      "p10": 2,
+      "p90": 5
+    }
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "per_pair": [
+    {
+      "id": "application-due-date",
+      "before_words": 17,
+      "after_words": 8,
+      "p": {
+        "plain": 0.53,
+        "reader": 0.16000000000000003,
+        "craft": 0.13999999999999999,
+        "editor": 0.5599999999999999,
+        "specific": 0.0050000000000000044
+      }
+    },
+    {
+      "id": "application-federal-assistance",
+      "before_words": 49,
+      "after_words": 26,
+      "p": {
+        "plain": 0.96,
+        "reader": 0.7849999999999999,
+        "craft": 0.505,
+        "editor": 0.89,
+        "specific": 0.09000000000000002
+      }
+    },
+    {
+      "id": "car-safety",
+      "before_words": 80,
+      "after_words": 11,
+      "p": {
+        "plain": 0.06999999999999999,
+        "reader": 0.04499999999999998,
+        "craft": 0.02500000000000002,
+        "editor": 0.22,
+        "specific": 0.075
+      }
+    },
+    {
+      "id": "employment-assistance",
+      "before_words": 52,
+      "after_words": 36,
+      "p": {
+        "plain": 0.63,
+        "reader": 0.355,
+        "craft": 0.22999999999999998,
+        "editor": 0.565,
+        "specific": 0.325
+      }
+    },
+    {
+      "id": "fungi-hazards",
+      "before_words": 64,
+      "after_words": 39,
+      "p": {
+        "plain": 0.335,
+        "reader": 0.43000000000000005,
+        "craft": 0.05999999999999999,
+        "editor": 0.38,
+        "specific": 0.595
+      }
+    },
+    {
+      "id": "lead-warning",
+      "before_words": 50,
+      "after_words": 41,
+      "p": {
+        "plain": 0.645,
+        "reader": 0.495,
+        "craft": 0.06999999999999999,
+        "editor": 0.44999999999999996,
+        "specific": 0.13
+      }
+    },
+    {
+      "id": "medicaid-eligibility",
+      "before_words": 90,
+      "after_words": 65,
+      "p": {
+        "plain": 0.915,
+        "reader": 0.7949999999999999,
+        "craft": 0.865,
+        "editor": 0.6699999999999999,
+        "specific": 0.345
+      }
+    },
+    {
+      "id": "medicaid-initiative",
+      "before_words": 76,
+      "after_words": 27,
+      "p": {
+        "plain": 0.75,
+        "reader": 0.79,
+        "craft": 0.24,
+        "editor": 0.745,
+        "specific": 0.955
+      }
+    },
+    {
+      "id": "monthly-due-date",
+      "before_words": 51,
+      "after_words": 29,
+      "p": {
+        "plain": 0.7949999999999999,
+        "reader": 0.6699999999999999,
+        "craft": 0.43,
+        "editor": 0.55,
+        "specific": 0.46499999999999997
+      }
+    },
+    {
+      "id": "natural-disasters",
+      "before_words": 73,
+      "after_words": 32,
+      "p": {
+        "plain": 0.44,
+        "reader": 0.22999999999999998,
+        "craft": 0.03500000000000001,
+        "editor": 0.5449999999999999,
+        "specific": 0.255
+      }
+    },
+    {
+      "id": "printer-recommendations",
+      "before_words": 31,
+      "after_words": 19,
+      "p": {
+        "plain": 0.7,
+        "reader": 0.47,
+        "craft": 0.3,
+        "editor": 0.7,
+        "specific": 0.405
+      }
+    },
+    {
+      "id": "register-pesticide",
+      "before_words": 57,
+      "after_words": 40,
+      "p": {
+        "plain": 0.3,
+        "reader": 0.19999999999999998,
+        "craft": 0.12000000000000002,
+        "editor": 0.235,
+        "specific": 0.4
+      }
+    },
+    {
+      "id": "use-less-water",
+      "before_words": 31,
+      "after_words": 17,
+      "p": {
+        "plain": 0.56,
+        "reader": 0.47000000000000003,
+        "craft": 0.4,
+        "editor": 0.6699999999999999,
+        "specific": 0.39
+      }
+    },
+    {
+      "id": "water-resources",
+      "before_words": 65,
+      "after_words": 65,
+      "p": {
+        "plain": 0.625,
+        "reader": 0.8300000000000001,
+        "craft": 0.53,
+        "editor": 0.535,
+        "specific": 0.83
+      }
+    }
+  ],
+  "accuracy": {
+    "plain": 0.7142857142857143,
+    "reader": 0.35714285714285715,
+    "craft": 0.21428571428571427,
+    "editor": 0.7142857142857143,
+    "specific": 0.21428571428571427
+  },
+  "mean_p": {
+    "plain": 0.59,
+    "reader": 0.48,
+    "craft": 0.282,
+    "editor": 0.551,
+    "specific": 0.376
+  }
+}

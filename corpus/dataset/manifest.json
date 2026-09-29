@@ -1,0 +1,1525 @@
+{
+  "note": "Public index of the taste-model corpus: one row per source, with the category and pole only. ids are the first 12 hex digits of sha256(url) and match corpus/dataset/features.json. The full source list (URLs, and the award or position that qualified each source) is kept privately; pass it to corpus/build_dataset.py with --manifest or WRITING_STYLE_DATASET_MANIFEST to rebuild the dataset. Text is never stored here.",
+  "sources": [
+    {
+      "id": "b831bf83ebaa",
+      "category": "seo-content-marketing",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "878b35f56d9a",
+      "category": "seo-content-marketing",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "0932dc38f557",
+      "category": "seo-content-marketing",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "f7659b3643d4",
+      "category": "seo-content-marketing",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "f616fe00cd4f",
+      "category": "seo-content-marketing",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "0f028fb44ea3",
+      "category": "seo-content-marketing",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "349d164da3bc",
+      "category": "seo-content-marketing",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "2e5be32fd946",
+      "category": "seo-content-marketing",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "bc944933abae",
+      "category": "seo-content-marketing",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "09a37e86241f",
+      "category": "seo-content-marketing",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "f4b31e4fb967",
+      "category": "seo-content-marketing",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "b11331ca102f",
+      "category": "seo-content-marketing",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "16e65554ca87",
+      "category": "seo-content-marketing",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "e06ad51dc175",
+      "category": "technical-craft",
+      "pole": "exemplar"
+    },
+    {
+      "id": "57df5164929b",
+      "category": "technical-craft",
+      "pole": "exemplar"
+    },
+    {
+      "id": "15b8e1b0e920",
+      "category": "technical-craft",
+      "pole": "exemplar"
+    },
+    {
+      "id": "ae1b2e08aa01",
+      "category": "technical-craft",
+      "pole": "exemplar"
+    },
+    {
+      "id": "ee6e249491d1",
+      "category": "technical-craft",
+      "pole": "exemplar"
+    },
+    {
+      "id": "c0a67b53f9ca",
+      "category": "technical-craft",
+      "pole": "exemplar"
+    },
+    {
+      "id": "fc5a3f447902",
+      "category": "technical-craft",
+      "pole": "exemplar"
+    },
+    {
+      "id": "3acf76007965",
+      "category": "technical-craft",
+      "pole": "exemplar"
+    },
+    {
+      "id": "207df9c5a09e",
+      "category": "technical-craft",
+      "pole": "exemplar"
+    },
+    {
+      "id": "596a7991a68d",
+      "category": "technical-craft",
+      "pole": "exemplar"
+    },
+    {
+      "id": "14f63dcb85af",
+      "category": "technical-craft",
+      "pole": "exemplar"
+    },
+    {
+      "id": "0fffc4b1c54f",
+      "category": "technical-craft",
+      "pole": "exemplar"
+    },
+    {
+      "id": "10584a38f3ba",
+      "category": "engagement-bait",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "86c05c5534d3",
+      "category": "engagement-bait",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "efa8962e30a5",
+      "category": "engagement-bait",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "cdf96672dee9",
+      "category": "engagement-bait",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "108782051693",
+      "category": "engagement-bait",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "d95ac604934d",
+      "category": "engagement-bait",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "59fc38a02eca",
+      "category": "engagement-bait",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "cb05ec34dbba",
+      "category": "engagement-bait",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "2b1472121838",
+      "category": "engagement-bait",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "8cb45f4ece57",
+      "category": "engagement-bait",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "b17d53dc305e",
+      "category": "engagement-bait",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "5e5fc41ddacd",
+      "category": "engagement-bait",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "32973f51fefd",
+      "category": "longform-journalism",
+      "pole": "exemplar"
+    },
+    {
+      "id": "e9f2ad38cb13",
+      "category": "longform-journalism",
+      "pole": "exemplar"
+    },
+    {
+      "id": "083dd77eb851",
+      "category": "longform-journalism",
+      "pole": "exemplar"
+    },
+    {
+      "id": "06ee3fcda8ba",
+      "category": "longform-journalism",
+      "pole": "exemplar"
+    },
+    {
+      "id": "e9890fe4e5ec",
+      "category": "longform-journalism",
+      "pole": "exemplar"
+    },
+    {
+      "id": "9a5ab5bd4f9d",
+      "category": "longform-journalism",
+      "pole": "exemplar"
+    },
+    {
+      "id": "8826ab9bfae7",
+      "category": "longform-journalism",
+      "pole": "exemplar"
+    },
+    {
+      "id": "12593b2091cd",
+      "category": "longform-journalism",
+      "pole": "exemplar"
+    },
+    {
+      "id": "325fee654b5a",
+      "category": "longform-journalism",
+      "pole": "exemplar"
+    },
+    {
+      "id": "bd978f822ae2",
+      "category": "longform-journalism",
+      "pole": "exemplar"
+    },
+    {
+      "id": "df4b2b4e4c10",
+      "category": "longform-journalism",
+      "pole": "exemplar"
+    },
+    {
+      "id": "e02ce066d59f",
+      "category": "longform-journalism",
+      "pole": "exemplar"
+    },
+    {
+      "id": "37676a303476",
+      "category": "saas-thought-leadership",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "5a13f82708e6",
+      "category": "saas-thought-leadership",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "ef8eb405e096",
+      "category": "saas-thought-leadership",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "e2a9686b44e2",
+      "category": "saas-thought-leadership",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "05007a537508",
+      "category": "saas-thought-leadership",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "907d8db74e92",
+      "category": "saas-thought-leadership",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "78065db65633",
+      "category": "saas-thought-leadership",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "7ed1e361c95d",
+      "category": "saas-thought-leadership",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "c8d06bd77252",
+      "category": "saas-thought-leadership",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "116c85b75e38",
+      "category": "saas-thought-leadership",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "8ad3c0dd3e76",
+      "category": "saas-thought-leadership",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "0ae8907db363",
+      "category": "saas-thought-leadership",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "80c712f48517",
+      "category": "content-farm",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "2ee6f98924ce",
+      "category": "content-farm",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "5bc61c7bef42",
+      "category": "content-farm",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "598be2c2cafd",
+      "category": "content-farm",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "5b2a833d4380",
+      "category": "content-farm",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "193a9d1fd009",
+      "category": "content-farm",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "77c9b2d75c72",
+      "category": "content-farm",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "b84cab0e4dbc",
+      "category": "content-farm",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "3916f53412a7",
+      "category": "content-farm",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "7a42b37e81c9",
+      "category": "content-farm",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "70cf736e8577",
+      "category": "content-farm",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "73ec931c9582",
+      "category": "content-farm",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "81c839d4ef90",
+      "category": "business-economics",
+      "pole": "exemplar"
+    },
+    {
+      "id": "74c448849408",
+      "category": "business-economics",
+      "pole": "exemplar"
+    },
+    {
+      "id": "f93d20a93695",
+      "category": "business-economics",
+      "pole": "exemplar"
+    },
+    {
+      "id": "ba637e42b1c9",
+      "category": "business-economics",
+      "pole": "exemplar"
+    },
+    {
+      "id": "facdc0d36136",
+      "category": "business-economics",
+      "pole": "exemplar"
+    },
+    {
+      "id": "280f49cc7ecc",
+      "category": "business-economics",
+      "pole": "exemplar"
+    },
+    {
+      "id": "a967803f9f8f",
+      "category": "business-economics",
+      "pole": "exemplar"
+    },
+    {
+      "id": "ec377586c91e",
+      "category": "business-economics",
+      "pole": "exemplar"
+    },
+    {
+      "id": "e947eb71f12a",
+      "category": "business-economics",
+      "pole": "exemplar"
+    },
+    {
+      "id": "82101686b297",
+      "category": "business-economics",
+      "pole": "exemplar"
+    },
+    {
+      "id": "274f35151982",
+      "category": "business-economics",
+      "pole": "exemplar"
+    },
+    {
+      "id": "d37a5c4a08de",
+      "category": "business-economics",
+      "pole": "exemplar"
+    },
+    {
+      "id": "c2522f96cd16",
+      "category": "science-nature",
+      "pole": "exemplar"
+    },
+    {
+      "id": "0b1a56e79f3e",
+      "category": "science-nature",
+      "pole": "exemplar"
+    },
+    {
+      "id": "8c69ef4b246f",
+      "category": "science-nature",
+      "pole": "exemplar"
+    },
+    {
+      "id": "5923d8e6dd4f",
+      "category": "science-nature",
+      "pole": "exemplar"
+    },
+    {
+      "id": "c461fd76a6a4",
+      "category": "science-nature",
+      "pole": "exemplar"
+    },
+    {
+      "id": "5a3cefc3fe15",
+      "category": "science-nature",
+      "pole": "exemplar"
+    },
+    {
+      "id": "e97c0e5495d6",
+      "category": "science-nature",
+      "pole": "exemplar"
+    },
+    {
+      "id": "b26fee6e20e0",
+      "category": "science-nature",
+      "pole": "exemplar"
+    },
+    {
+      "id": "ef02a3c83abc",
+      "category": "science-nature",
+      "pole": "exemplar"
+    },
+    {
+      "id": "2a06e4f725c6",
+      "category": "science-nature",
+      "pole": "exemplar"
+    },
+    {
+      "id": "9ea4735a819c",
+      "category": "science-nature",
+      "pole": "exemplar"
+    },
+    {
+      "id": "efcd18b73ae2",
+      "category": "science-nature",
+      "pole": "exemplar"
+    },
+    {
+      "id": "8a90ab331c0b",
+      "category": "criticism",
+      "pole": "exemplar"
+    },
+    {
+      "id": "3060ed00c604",
+      "category": "criticism",
+      "pole": "exemplar"
+    },
+    {
+      "id": "98d282cb015c",
+      "category": "criticism",
+      "pole": "exemplar"
+    },
+    {
+      "id": "5aa4934e2c84",
+      "category": "criticism",
+      "pole": "exemplar"
+    },
+    {
+      "id": "6485bf760328",
+      "category": "criticism",
+      "pole": "exemplar"
+    },
+    {
+      "id": "32ac5baa4ae5",
+      "category": "criticism",
+      "pole": "exemplar"
+    },
+    {
+      "id": "58a623cf7ee1",
+      "category": "criticism",
+      "pole": "exemplar"
+    },
+    {
+      "id": "dd1d0c9e2839",
+      "category": "criticism",
+      "pole": "exemplar"
+    },
+    {
+      "id": "8406782616df",
+      "category": "criticism",
+      "pole": "exemplar"
+    },
+    {
+      "id": "c002a5ae20b8",
+      "category": "criticism",
+      "pole": "exemplar"
+    },
+    {
+      "id": "4e5b23b0ab9c",
+      "category": "criticism",
+      "pole": "exemplar"
+    },
+    {
+      "id": "2615a86a6ea9",
+      "category": "criticism",
+      "pole": "exemplar"
+    },
+    {
+      "id": "c1353ce3aa48",
+      "category": "literary-essay",
+      "pole": "exemplar"
+    },
+    {
+      "id": "f01cccc2dd39",
+      "category": "literary-essay",
+      "pole": "exemplar"
+    },
+    {
+      "id": "0f0612fdc217",
+      "category": "literary-essay",
+      "pole": "exemplar"
+    },
+    {
+      "id": "85921cbde8d6",
+      "category": "literary-essay",
+      "pole": "exemplar"
+    },
+    {
+      "id": "adb6fea1ba6e",
+      "category": "literary-essay",
+      "pole": "exemplar"
+    },
+    {
+      "id": "4b1cceb41f33",
+      "category": "literary-essay",
+      "pole": "exemplar"
+    },
+    {
+      "id": "4a5c6f3826ee",
+      "category": "literary-essay",
+      "pole": "exemplar"
+    },
+    {
+      "id": "93c5041355f0",
+      "category": "literary-essay",
+      "pole": "exemplar"
+    },
+    {
+      "id": "199aa948785b",
+      "category": "literary-essay",
+      "pole": "exemplar"
+    },
+    {
+      "id": "b268666e581c",
+      "category": "literary-essay",
+      "pole": "exemplar"
+    },
+    {
+      "id": "5e50cd1720c7",
+      "category": "literary-essay",
+      "pole": "exemplar"
+    },
+    {
+      "id": "e13177eeea72",
+      "category": "humor-satire",
+      "pole": "exemplar"
+    },
+    {
+      "id": "4943bd52389e",
+      "category": "humor-satire",
+      "pole": "exemplar"
+    },
+    {
+      "id": "4ae8db6cbb00",
+      "category": "humor-satire",
+      "pole": "exemplar"
+    },
+    {
+      "id": "1310437d0f95",
+      "category": "humor-satire",
+      "pole": "exemplar"
+    },
+    {
+      "id": "aeec02957f54",
+      "category": "humor-satire",
+      "pole": "exemplar"
+    },
+    {
+      "id": "dc7a9ee08fdb",
+      "category": "humor-satire",
+      "pole": "exemplar"
+    },
+    {
+      "id": "8009bea2ed85",
+      "category": "humor-satire",
+      "pole": "exemplar"
+    },
+    {
+      "id": "c63e9f7859a9",
+      "category": "humor-satire",
+      "pole": "exemplar"
+    },
+    {
+      "id": "8f4fce3a5a8e",
+      "category": "humor-satire",
+      "pole": "exemplar"
+    },
+    {
+      "id": "308eade67b1e",
+      "category": "humor-satire",
+      "pole": "exemplar"
+    },
+    {
+      "id": "40d1ab9e17ee",
+      "category": "humor-satire",
+      "pole": "exemplar"
+    },
+    {
+      "id": "10d8e989c7c2",
+      "category": "humor-satire",
+      "pole": "exemplar"
+    },
+    {
+      "id": "09e9c489797f",
+      "category": "press-releases",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "9ff03ea5255e",
+      "category": "press-releases",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "f2f3c98c0a12",
+      "category": "press-releases",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "0260bb9ce0a7",
+      "category": "press-releases",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "4ce07aeb28bb",
+      "category": "press-releases",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "3a9e72f47ec3",
+      "category": "press-releases",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "6dc7e60a1e5c",
+      "category": "press-releases",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "cd70bba91c15",
+      "category": "press-releases",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "3ded9e37db9a",
+      "category": "press-releases",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "ea4b3d701448",
+      "category": "press-releases",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "d53c90953418",
+      "category": "press-releases",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "8f1bd351989a",
+      "category": "press-releases",
+      "pole": "anti-exemplar"
+    },
+    {
+      "id": "69c3dedca4d8",
+      "category": "nature-place",
+      "pole": "exemplar"
+    },
+    {
+      "id": "484e240186a8",
+      "category": "nature-place",
+      "pole": "exemplar"
+    },
+    {
+      "id": "063722257bb2",
+      "category": "nature-place",
+      "pole": "exemplar"
+    },
+    {
+      "id": "21e1b2f0a9ab",
+      "category": "nature-place",
+      "pole": "exemplar"
+    },
+    {
+      "id": "9a2e97c59544",
+      "category": "nature-place",
+      "pole": "exemplar"
+    },
+    {
+      "id": "5678d8a2c719",
+      "category": "nature-place",
+      "pole": "exemplar"
+    },
+    {
+      "id": "f95ffde9642e",
+      "category": "nature-place",
+      "pole": "exemplar"
+    },
+    {
+      "id": "6c3c6c512f76",
+      "category": "nature-place",
+      "pole": "exemplar"
+    },
+    {
+      "id": "cf825403a22e",
+      "category": "nature-place",
+      "pole": "exemplar"
+    },
+    {
+      "id": "f1d9d305de79",
+      "category": "nature-place",
+      "pole": "exemplar"
+    },
+    {
+      "id": "b1a3f770a5aa",
+      "category": "memoir-personal",
+      "pole": "exemplar"
+    },
+    {
+      "id": "952d8c536677",
+      "category": "memoir-personal",
+      "pole": "exemplar"
+    },
+    {
+      "id": "453ede4b4633",
+      "category": "memoir-personal",
+      "pole": "exemplar"
+    },
+    {
+      "id": "03512df0a0a5",
+      "category": "memoir-personal",
+      "pole": "exemplar"
+    },
+    {
+      "id": "daa0ff1e3e6c",
+      "category": "memoir-personal",
+      "pole": "exemplar"
+    },
+    {
+      "id": "8c140fc031e5",
+      "category": "memoir-personal",
+      "pole": "exemplar"
+    },
+    {
+      "id": "1037150e3c9e",
+      "category": "memoir-personal",
+      "pole": "exemplar"
+    },
+    {
+      "id": "333950bf9cfb",
+      "category": "memoir-personal",
+      "pole": "exemplar"
+    },
+    {
+      "id": "295c3a216821",
+      "category": "memoir-personal",
+      "pole": "exemplar"
+    },
+    {
+      "id": "d772898162e6",
+      "category": "memoir-personal",
+      "pole": "exemplar"
+    },
+    {
+      "id": "9737e6c2b1ff",
+      "category": "memoir-personal",
+      "pole": "exemplar"
+    },
+    {
+      "id": "e0bd0badb7d4",
+      "category": "music-writing",
+      "pole": "exemplar"
+    },
+    {
+      "id": "507df1cf1c51",
+      "category": "music-writing",
+      "pole": "exemplar"
+    },
+    {
+      "id": "d5fac5d5fda7",
+      "category": "music-writing",
+      "pole": "exemplar"
+    },
+    {
+      "id": "33562bb45d72",
+      "category": "music-writing",
+      "pole": "exemplar"
+    },
+    {
+      "id": "fc1cea0b75ab",
+      "category": "music-writing",
+      "pole": "exemplar"
+    },
+    {
+      "id": "30c591eb5ac4",
+      "category": "music-writing",
+      "pole": "exemplar"
+    },
+    {
+      "id": "64575c0d581d",
+      "category": "music-writing",
+      "pole": "exemplar"
+    },
+    {
+      "id": "1e89d69fed57",
+      "category": "music-writing",
+      "pole": "exemplar"
+    },
+    {
+      "id": "200841afedf0",
+      "category": "music-writing",
+      "pole": "exemplar"
+    },
+    {
+      "id": "6385bf98b787",
+      "category": "music-writing",
+      "pole": "exemplar"
+    },
+    {
+      "id": "4d2c9765105e",
+      "category": "music-writing",
+      "pole": "exemplar"
+    },
+    {
+      "id": "80ade09cc167",
+      "category": "music-writing",
+      "pole": "exemplar"
+    },
+    {
+      "id": "4e0e5f5f66d5",
+      "category": "food-travel",
+      "pole": "exemplar"
+    },
+    {
+      "id": "0b1f24103862",
+      "category": "food-travel",
+      "pole": "exemplar"
+    },
+    {
+      "id": "ed097481674e",
+      "category": "food-travel",
+      "pole": "exemplar"
+    },
+    {
+      "id": "879181335e24",
+      "category": "food-travel",
+      "pole": "exemplar"
+    },
+    {
+      "id": "df1545def570",
+      "category": "food-travel",
+      "pole": "exemplar"
+    },
+    {
+      "id": "0364c806860e",
+      "category": "food-travel",
+      "pole": "exemplar"
+    },
+    {
+      "id": "9a6f9dc23528",
+      "category": "food-travel",
+      "pole": "exemplar"
+    },
+    {
+      "id": "0997ead250cd",
+      "category": "food-travel",
+      "pole": "exemplar"
+    },
+    {
+      "id": "a31709cfc7cf",
+      "category": "food-travel",
+      "pole": "exemplar"
+    },
+    {
+      "id": "93ab8451659e",
+      "category": "food-travel",
+      "pole": "exemplar"
+    },
+    {
+      "id": "ee3dc6a3c8dc",
+      "category": "history-writing",
+      "pole": "exemplar"
+    },
+    {
+      "id": "151ba65d0519",
+      "category": "history-writing",
+      "pole": "exemplar"
+    },
+    {
+      "id": "b448bd5e534a",
+      "category": "history-writing",
+      "pole": "exemplar"
+    },
+    {
+      "id": "cc424b4d9762",
+      "category": "history-writing",
+      "pole": "exemplar"
+    },
+    {
+      "id": "5d7f8a0f20c8",
+      "category": "history-writing",
+      "pole": "exemplar"
+    },
+    {
+      "id": "8d7eb02e747c",
+      "category": "history-writing",
+      "pole": "exemplar"
+    },
+    {
+      "id": "991595c2606f",
+      "category": "history-writing",
+      "pole": "exemplar"
+    },
+    {
+      "id": "ef58563826dc",
+      "category": "history-writing",
+      "pole": "exemplar"
+    },
+    {
+      "id": "e1ac884c1f72",
+      "category": "history-writing",
+      "pole": "exemplar"
+    },
+    {
+      "id": "c64a01df4f60",
+      "category": "history-writing",
+      "pole": "exemplar"
+    },
+    {
+      "id": "31dc2310aad5",
+      "category": "profile-writing",
+      "pole": "exemplar"
+    },
+    {
+      "id": "aef48f225320",
+      "category": "profile-writing",
+      "pole": "exemplar"
+    },
+    {
+      "id": "042d40058333",
+      "category": "profile-writing",
+      "pole": "exemplar"
+    },
+    {
+      "id": "37fccddca16d",
+      "category": "profile-writing",
+      "pole": "exemplar"
+    },
+    {
+      "id": "54b0a1117bef",
+      "category": "profile-writing",
+      "pole": "exemplar"
+    },
+    {
+      "id": "1dc4668243c2",
+      "category": "profile-writing",
+      "pole": "exemplar"
+    },
+    {
+      "id": "3b1e4a5669c5",
+      "category": "profile-writing",
+      "pole": "exemplar"
+    },
+    {
+      "id": "f82970dc5d8e",
+      "category": "profile-writing",
+      "pole": "exemplar"
+    },
+    {
+      "id": "d8c887cf4e24",
+      "category": "profile-writing",
+      "pole": "exemplar"
+    },
+    {
+      "id": "c7d3fad04972",
+      "category": "profile-writing",
+      "pole": "exemplar"
+    },
+    {
+      "id": "d324a7ce0075",
+      "category": "profile-writing",
+      "pole": "exemplar"
+    },
+    {
+      "id": "5ad09b88aa84",
+      "category": "profile-writing",
+      "pole": "exemplar"
+    },
+    {
+      "id": "8349cfb9b048",
+      "category": "medicine-clinical",
+      "pole": "exemplar"
+    },
+    {
+      "id": "5e983b70bea8",
+      "category": "medicine-clinical",
+      "pole": "exemplar"
+    },
+    {
+      "id": "a7c02e312567",
+      "category": "medicine-clinical",
+      "pole": "exemplar"
+    },
+    {
+      "id": "1d782b975959",
+      "category": "medicine-clinical",
+      "pole": "exemplar"
+    },
+    {
+      "id": "f9c3334276ce",
+      "category": "medicine-clinical",
+      "pole": "exemplar"
+    },
+    {
+      "id": "f0dc52fd284a",
+      "category": "medicine-clinical",
+      "pole": "exemplar"
+    },
+    {
+      "id": "4b6957e96df6",
+      "category": "medicine-clinical",
+      "pole": "exemplar"
+    },
+    {
+      "id": "716d1b52413b",
+      "category": "medicine-clinical",
+      "pole": "exemplar"
+    },
+    {
+      "id": "896012c5d6e6",
+      "category": "medicine-clinical",
+      "pole": "exemplar"
+    },
+    {
+      "id": "68db529c36f8",
+      "category": "medicine-clinical",
+      "pole": "exemplar"
+    },
+    {
+      "id": "5f7c1456073e",
+      "category": "medicine-clinical",
+      "pole": "exemplar"
+    },
+    {
+      "id": "9115e70a54d7",
+      "category": "medicine-clinical",
+      "pole": "exemplar"
+    },
+    {
+      "id": "9b5201c362aa",
+      "category": "obituary-eulogy",
+      "pole": "exemplar"
+    },
+    {
+      "id": "8c5d0f21e299",
+      "category": "obituary-eulogy",
+      "pole": "exemplar"
+    },
+    {
+      "id": "90d0a8f4b1be",
+      "category": "obituary-eulogy",
+      "pole": "exemplar"
+    },
+    {
+      "id": "c23d338c520c",
+      "category": "obituary-eulogy",
+      "pole": "exemplar"
+    },
+    {
+      "id": "46542c57f692",
+      "category": "obituary-eulogy",
+      "pole": "exemplar"
+    },
+    {
+      "id": "d1887ebe0bb9",
+      "category": "obituary-eulogy",
+      "pole": "exemplar"
+    },
+    {
+      "id": "2380c1d10ecf",
+      "category": "obituary-eulogy",
+      "pole": "exemplar"
+    },
+    {
+      "id": "5e48784961ae",
+      "category": "obituary-eulogy",
+      "pole": "exemplar"
+    },
+    {
+      "id": "27b6c2cd7d05",
+      "category": "obituary-eulogy",
+      "pole": "exemplar"
+    },
+    {
+      "id": "9898ae3b89fd",
+      "category": "obituary-eulogy",
+      "pole": "exemplar"
+    },
+    {
+      "id": "28589068af58",
+      "category": "obituary-eulogy",
+      "pole": "exemplar"
+    },
+    {
+      "id": "ce20501b5600",
+      "category": "obituary-eulogy",
+      "pole": "exemplar"
+    },
+    {
+      "id": "148c028c77c3",
+      "category": "sports-writing",
+      "pole": "exemplar"
+    },
+    {
+      "id": "59bea8df886e",
+      "category": "sports-writing",
+      "pole": "exemplar"
+    },
+    {
+      "id": "691e55d0800a",
+      "category": "sports-writing",
+      "pole": "exemplar"
+    },
+    {
+      "id": "570d4a5b0339",
+      "category": "sports-writing",
+      "pole": "exemplar"
+    },
+    {
+      "id": "b1946ad706c8",
+      "category": "sports-writing",
+      "pole": "exemplar"
+    },
+    {
+      "id": "33e1e8bc7cd5",
+      "category": "sports-writing",
+      "pole": "exemplar"
+    },
+    {
+      "id": "ccab46e16218",
+      "category": "sports-writing",
+      "pole": "exemplar"
+    },
+    {
+      "id": "01326d61c8fd",
+      "category": "sports-writing",
+      "pole": "exemplar"
+    },
+    {
+      "id": "269b6d195e8f",
+      "category": "sports-writing",
+      "pole": "exemplar"
+    },
+    {
+      "id": "45f0402ede0c",
+      "category": "sports-writing",
+      "pole": "exemplar"
+    },
+    {
+      "id": "28849fe89129",
+      "category": "sports-writing",
+      "pole": "exemplar"
+    },
+    {
+      "id": "5ceec28382af",
+      "category": "conflict-reporting",
+      "pole": "exemplar"
+    },
+    {
+      "id": "1b81c4202910",
+      "category": "conflict-reporting",
+      "pole": "exemplar"
+    },
+    {
+      "id": "cdf9ce9d10c1",
+      "category": "conflict-reporting",
+      "pole": "exemplar"
+    },
+    {
+      "id": "2fd8871240b0",
+      "category": "conflict-reporting",
+      "pole": "exemplar"
+    },
+    {
+      "id": "0c5d4e141457",
+      "category": "conflict-reporting",
+      "pole": "exemplar"
+    },
+    {
+      "id": "aebf42693a16",
+      "category": "conflict-reporting",
+      "pole": "exemplar"
+    },
+    {
+      "id": "edc4923ae831",
+      "category": "conflict-reporting",
+      "pole": "exemplar"
+    },
+    {
+      "id": "2e0fc77ae3b2",
+      "category": "conflict-reporting",
+      "pole": "exemplar"
+    },
+    {
+      "id": "9f90ce42917d",
+      "category": "conflict-reporting",
+      "pole": "exemplar"
+    },
+    {
+      "id": "604ffe29dfdf",
+      "category": "conflict-reporting",
+      "pole": "exemplar"
+    },
+    {
+      "id": "9b64d36f0ed2",
+      "category": "conflict-reporting",
+      "pole": "exemplar"
+    },
+    {
+      "id": "2995a4be5f13",
+      "category": "conflict-reporting",
+      "pole": "exemplar"
+    },
+    {
+      "id": "913de0b6ac0e",
+      "category": "speech-rhetoric",
+      "pole": "exemplar"
+    },
+    {
+      "id": "86465b0b12ab",
+      "category": "speech-rhetoric",
+      "pole": "exemplar"
+    },
+    {
+      "id": "f7975b3e9c5a",
+      "category": "speech-rhetoric",
+      "pole": "exemplar"
+    },
+    {
+      "id": "f7bac8dd908d",
+      "category": "speech-rhetoric",
+      "pole": "exemplar"
+    },
+    {
+      "id": "a524467ba44c",
+      "category": "speech-rhetoric",
+      "pole": "exemplar"
+    },
+    {
+      "id": "5081fe8df6d9",
+      "category": "speech-rhetoric",
+      "pole": "exemplar"
+    },
+    {
+      "id": "5e3336ebb645",
+      "category": "speech-rhetoric",
+      "pole": "exemplar"
+    },
+    {
+      "id": "3a7d4b7679eb",
+      "category": "speech-rhetoric",
+      "pole": "exemplar"
+    },
+    {
+      "id": "fc1d723b3712",
+      "category": "speech-rhetoric",
+      "pole": "exemplar"
+    },
+    {
+      "id": "7a1f653c5f05",
+      "category": "speech-rhetoric",
+      "pole": "exemplar"
+    },
+    {
+      "id": "3c09c4615edd",
+      "category": "speech-rhetoric",
+      "pole": "exemplar"
+    },
+    {
+      "id": "e9993cef8fad",
+      "category": "speech-rhetoric",
+      "pole": "exemplar"
+    },
+    {
+      "id": "7df33731c748",
+      "category": "literary-essay-more",
+      "pole": "exemplar"
+    },
+    {
+      "id": "e75f6300f062",
+      "category": "literary-essay-more",
+      "pole": "exemplar"
+    },
+    {
+      "id": "46695d0a13ff",
+      "category": "literary-essay-more",
+      "pole": "exemplar"
+    },
+    {
+      "id": "27bf7e1611b9",
+      "category": "literary-essay-more",
+      "pole": "exemplar"
+    },
+    {
+      "id": "b5b1c902a81c",
+      "category": "literary-essay-more",
+      "pole": "exemplar"
+    },
+    {
+      "id": "a96a9e045c63",
+      "category": "literary-essay-more",
+      "pole": "exemplar"
+    },
+    {
+      "id": "a08b1aa517ef",
+      "category": "literary-essay-more",
+      "pole": "exemplar"
+    },
+    {
+      "id": "0b91752e033e",
+      "category": "literary-essay-more",
+      "pole": "exemplar"
+    },
+    {
+      "id": "ca082e519d7e",
+      "category": "literary-essay-more",
+      "pole": "exemplar"
+    },
+    {
+      "id": "80e673efdde8",
+      "category": "literary-essay-more",
+      "pole": "exemplar"
+    },
+    {
+      "id": "0f4893ea6d64",
+      "category": "literary-essay-more",
+      "pole": "exemplar"
+    },
+    {
+      "id": "36011f74b295",
+      "category": "literary-essay-more",
+      "pole": "exemplar"
+    },
+    {
+      "id": "9ec0712b8bbc",
+      "category": "literary-essay-more",
+      "pole": "exemplar"
+    },
+    {
+      "id": "986db64071da",
+      "category": "technical-craft-more",
+      "pole": "exemplar"
+    },
+    {
+      "id": "9f285ec674ce",
+      "category": "technical-craft-more",
+      "pole": "exemplar"
+    },
+    {
+      "id": "d36acb3fedd9",
+      "category": "technical-craft-more",
+      "pole": "exemplar"
+    },
+    {
+      "id": "dd44904753f1",
+      "category": "technical-craft-more",
+      "pole": "exemplar"
+    },
+    {
+      "id": "af913faf4ecb",
+      "category": "technical-craft-more",
+      "pole": "exemplar"
+    },
+    {
+      "id": "ed2e0f1eba2d",
+      "category": "technical-craft-more",
+      "pole": "exemplar"
+    },
+    {
+      "id": "26e1c7facd46",
+      "category": "technical-craft-more",
+      "pole": "exemplar"
+    },
+    {
+      "id": "c886369567de",
+      "category": "technical-craft-more",
+      "pole": "exemplar"
+    },
+    {
+      "id": "7754da55804f",
+      "category": "technical-craft-more",
+      "pole": "exemplar"
+    },
+    {
+      "id": "27fee65c3be7",
+      "category": "technical-craft-more",
+      "pole": "exemplar"
+    },
+    {
+      "id": "655ad85b6c46",
+      "category": "technical-craft-more",
+      "pole": "exemplar"
+    },
+    {
+      "id": "db8854029f29",
+      "category": "political-essay",
+      "pole": "exemplar"
+    },
+    {
+      "id": "3e4be5d5351d",
+      "category": "political-essay",
+      "pole": "exemplar"
+    },
+    {
+      "id": "02fbfd9ef42e",
+      "category": "political-essay",
+      "pole": "exemplar"
+    },
+    {
+      "id": "bd2e70917d7a",
+      "category": "political-essay",
+      "pole": "exemplar"
+    },
+    {
+      "id": "3ee2ff3a0215",
+      "category": "political-essay",
+      "pole": "exemplar"
+    },
+    {
+      "id": "59557876ffee",
+      "category": "political-essay",
+      "pole": "exemplar"
+    },
+    {
+      "id": "a95cf6f26b84",
+      "category": "political-essay",
+      "pole": "exemplar"
+    },
+    {
+      "id": "7747abf4ca74",
+      "category": "political-essay",
+      "pole": "exemplar"
+    },
+    {
+      "id": "0890c07f15ab",
+      "category": "political-essay",
+      "pole": "exemplar"
+    },
+    {
+      "id": "0c14b0034f8b",
+      "category": "political-essay",
+      "pole": "exemplar"
+    },
+    {
+      "id": "0f9c58d47114",
+      "category": "political-essay",
+      "pole": "exemplar"
+    },
+    {
+      "id": "6fb5b6ed184a",
+      "category": "political-essay",
+      "pole": "exemplar"
+    }
+  ]
+}

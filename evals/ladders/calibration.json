@@ -1,0 +1,37 @@
+{
+  "plain": {
+    "rank_accuracy": 1.0,
+    "adjacent_accuracy": 1.0,
+    "mean_spearman": 1.0,
+    "position_bias": 0.14,
+    "comparisons": 24
+  },
+  "reader": {
+    "rank_accuracy": 1.0,
+    "adjacent_accuracy": 1.0,
+    "mean_spearman": 1.0,
+    "position_bias": 0.152,
+    "comparisons": 24
+  },
+  "craft": {
+    "rank_accuracy": 1.0,
+    "adjacent_accuracy": 1.0,
+    "mean_spearman": 1.0,
+    "position_bias": 0.164,
+    "comparisons": 24
+  },
+  "editor": {
+    "rank_accuracy": 1.0,
+    "adjacent_accuracy": 1.0,
+    "mean_spearman": 1.0,
+    "position_bias": 0.136,
+    "comparisons": 24
+  },
+  "specific": {
+    "rank_accuracy": 1.0,
+    "adjacent_accuracy": 1.0,
+    "mean_spearman": 1.0,
+    "position_bias": 0.429,
+    "comparisons": 24
+  }
+}

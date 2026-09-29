@@ -1,0 +1,47 @@
+writing-style
+Third-party material and credits
+================================
+
+humanizer
+---------
+references/ai-tells.md is inspired by humanizer, https://github.com/blader/humanizer,
+by Siqi Chen (MIT). Its catalogue of AI-writing patterns shaped the categories
+this skill watches for. The descriptions and every example here are our own.
+
+proseweave (vendored)
+---------------------
+vendor/proseweave/ is a pinned copy of proseweave, Copyright (c) 2026 Chad
+Boyda, released under the MIT License. The full licence text is in
+vendor/LICENSE.proseweave. Its bundled data files are not all MIT, and each
+keeps its own licence:
+- syntax_en.bin.gz: CC BY-SA 4.0; similarity_wiki.bin.gz: CC BY-SA 3.0
+  (share-alike applies to those files only, not to the code or text of this
+  repository);
+- zipf_en.bin.gz and mag_news_freq.bin.xz: CC BY 4.0;
+- syllables_en.bin.gz and stress_en.bin.gz: BSD 2-clause (CMUdict);
+- hyph_en_US.dic.gz: BSD-style hyphenation patterns;
+- similarity_glove.bin.gz: PDDL (GloVe); similarity_sent.bin.gz: Apache 2.0;
+- lemma, synonym and stop-word tables: the WordNet 3.0 licence and MIT (spaCy).
+Full attributions and licence texts: vendor/NOTICE.proseweave and the
+LICENSE_* and *NOTICE* files in vendor/proseweave/data/. In that NOTICE,
+paths under src/proseweave/ refer to vendor/proseweave/ here; tools/ and
+validation/ are in the upstream proseweave repository.
+
+Wikipedia: Signs of AI writing
+------------------------------
+The pattern categories in references/ai-tells.md also draw on "Wikipedia:Signs
+of AI writing", https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing,
+maintained by WikiProject AI Cleanup and other contributors under the Creative
+Commons Attribution-ShareAlike 4.0 License
+(https://creativecommons.org/licenses/by-sa/4.0/). The descriptions and
+examples in this repository are written in our own words and no text from that
+page is reproduced. The short watch lists of commonly flagged single words and
+stock phrases in references/ai-tells.md and scripts/check_ai_tells.py (such as
+"delve" or "it is important to note") name the same well-known tells.
+
+US federal plain-language examples
+----------------------------------
+corpus/attested/plain-language-pairs.json contains before/after rewrites
+published by US federal agencies under the Plain Writing Act, as archived at
+https://github.com/GSA/plainlanguage.gov. As works of the US Government they
+are in the public domain (17 U.S.C. 105).

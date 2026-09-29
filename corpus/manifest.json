@@ -1,0 +1,23 @@
+{
+  "note": "A reference set of writing with craft credibility, used to derive empirical ranges for the stylometry thresholds rather than inventing them. Selection encodes a particular taste and is meant to be edited: swap in whoever you actually admire. Text is NOT stored in this repository - build_corpus.py fetches to a gitignored cache and commits only derived metrics.",
+  "selection_criteria": [
+    "freely readable on the open web, no paywall circumvention",
+    "prose whose craft is widely and independently regarded, not merely popular",
+    "spans registers: technical explanation, reported nonfiction, criticism, personal essay, business writing",
+    "living or recent, so the register is usable rather than archival"
+  ],
+  "sources": [
+    {"author": "Paul Graham", "genre": "essay/technical", "url": "https://paulgraham.com/writes.html", "why": "plain-prose discipline; short words doing heavy work"},
+    {"author": "Paul Graham", "genre": "essay/technical", "url": "https://paulgraham.com/useful.html", "why": "argument built in visible steps"},
+    {"author": "Craig Mod", "genre": "essay/place", "url": "https://craigmod.com/essays/fast_software/", "why": "sensory specificity inside a technical argument"},
+    {"author": "Patrick McKenzie", "genre": "business/explanatory", "url": "https://www.bitsaboutmoney.com/archive/the-infrastructure-behind-atms/", "why": "dense domain explanation that stays readable"},
+    {"author": "Dan Wang", "genre": "essay/annual letter", "url": "https://danwang.co/2023-letter/", "why": "long-form synthesis; register shifts without wobbling"},
+    {"author": "Maggie Appleton", "genre": "essay/technical", "url": "https://maggieappleton.com/ambient-copresence", "why": "concept exposition with unusual clarity"},
+    {"author": "Robin Sloan", "genre": "newsletter/essay", "url": "https://www.robinsloan.com/lab/new-avenues/", "why": "distinctive voice held under control"},
+    {"author": "Nadia Asparouhova", "genre": "essay/social", "url": "https://nadia.xyz/idea-machines", "why": "structural clarity on a fuzzy subject"},
+    {"author": "Ted Gioia", "genre": "criticism", "url": "https://www.honest-broker.com/p/why-did-the-beatles-get-so-much-better", "why": "criticism that argues rather than asserts"},
+    {"author": "Paul Ford", "genre": "essay/technical", "url": "https://www.ftrain.com/wwic", "why": "humane technical writing; comic timing"},
+    {"author": "Simon Willison", "genre": "technical/reporting", "url": "https://simonwillison.net/2024/Dec/31/llms-in-2024/", "why": "precise technical reporting without hype"},
+    {"author": "Gwern Branwen", "genre": "long-form/research", "url": "https://gwern.net/scaling-hypothesis", "why": "sustained reasoning across many sections"}
+  ]
+}
