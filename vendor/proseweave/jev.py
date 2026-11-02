@@ -36,6 +36,7 @@ import concurrent.futures as cf
 import hashlib
 import json
 import os
+import socket
 import tempfile
 import time
 import urllib.error
@@ -178,21 +179,6 @@ class Jev:
                 t0 = time.perf_counter()
                 with urllib.request.urlopen(req, timeout=self.timeout) as r:
                     data = json.loads(r.read())
-                latency = time.perf_counter() - t0
-                usage = data.get("usage") or {}
-                billed = int(usage.get("input_tokens") or 0)
-                self.input_tokens += billed
-                self.requests += 1
-                answers = data.get("answers") or {}
-                self._cache_put(state, questions, answers, assets)   # paid for: keep it even if the hook stops us
-                if self.on_usage is not None:
-                    self.on_usage({"model": data.get("model") or self.model, "usage": usage,
-                                   "input_tokens": billed, "latency_s": latency, "questions": len(questions),
-                                   "images": len(assets or {}), "tag": tag})
-                data["answers"] = answers
-                data["latency_s"] = latency
-                data["cached"] = False
-                return data
             except urllib.error.HTTPError as e:
                 if e.code == 401 or e.code == 403:
                     raise JevUnavailable("Jev rejected the API key (HTTP %d). " % e.code + SETUP_HELP)
@@ -208,12 +194,30 @@ class Jev:
                 if e.code == 400 and "max_tokens" in detail:
                     raise TooLarge(detail)
                 raise RuntimeError(f"Jev error {e.code}: {detail}")
-            except urllib.error.URLError as e:
+            except (urllib.error.URLError, socket.timeout, TimeoutError, ConnectionError) as e:
+                # a slow reply raises a bare timeout (urllib wraps only the connect in URLError): retry it too
                 if attempt < retries - 1:
                     time.sleep(delay)
                     delay = min(delay * 2, 30)
                     continue
-                raise JevUnavailable(f"Jev unreachable: {e.reason}")
+                raise JevUnavailable(f"Jev unreachable: {getattr(e, 'reason', None) or e!r}")
+            else:
+                # outside the try: an error in the hook (its own network call) must not resend a paid request
+                latency = time.perf_counter() - t0
+                usage = data.get("usage") or {}
+                billed = int(usage.get("input_tokens") or 0)
+                self.input_tokens += billed
+                self.requests += 1
+                answers = data.get("answers") or {}
+                self._cache_put(state, questions, answers, assets)   # paid for: keep it even if the hook stops us
+                if self.on_usage is not None:
+                    self.on_usage({"model": data.get("model") or self.model, "usage": usage,
+                                   "input_tokens": billed, "latency_s": latency, "questions": len(questions),
+                                   "images": len(assets or {}), "tag": tag})
+                data["answers"] = answers
+                data["latency_s"] = latency
+                data["cached"] = False
+                return data
         raise RuntimeError("Jev: retries exhausted")
 
     # -- many requests -----------------------------------------------------
